@@ -1,0 +1,2900 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\USER
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1081
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 188
+    content: 'PS C:\Users\USER> '
+  - delay: 14916
+    content: "\e[?25l"
+  - delay: 14
+    content: "& \e[36m\"C:\\Program Files\\MariaDB 12.0\\bin\\mysql.exe\" \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 918
+    content: "\e[m"
+  - delay: 19
+    content: "\r\n"
+  - delay: 71
+    content: E
+  - delay: 21
+    content: 'nter password: '
+  - delay: 1298
+    content: '*'
+  - delay: 307
+    content: '*'
+  - delay: 138
+    content: '*'
+  - delay: 202
+    content: '*'
+  - delay: 140
+    content: '*'
+  - delay: 104
+    content: '*'
+  - delay: 176
+    content: '*'
+  - delay: 84
+    content: '*'
+  - delay: 175
+    content: '*'
+  - delay: 163
+    content: '*'
+  - delay: 180
+    content: '*'
+  - delay: 460
+    content: '*'
+  - delay: 214
+    content: '*'
+  - delay: 178
+    content: '*'
+  - delay: 210
+    content: '*'
+  - delay: 118
+    content: '*'
+  - delay: 423
+    content: '*'
+  - delay: 613
+    content: "\r\n"
+  - delay: 55
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 14
+    content: "\e[?25l\r\nYour MariaDB connection id is 5\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 5418
+    content: s
+  - delay: 127
+    content: h
+  - delay: 212
+    content: o
+  - delay: 139
+    content: w
+  - delay: 199
+    content: ' '
+  - delay: 166
+    content: d
+  - delay: 198
+    content: a
+  - delay: 97
+    content: t
+  - delay: 95
+    content: a
+  - delay: 183
+    content: b
+  - delay: 521
+    content: a
+  - delay: 212
+    content: s
+  - delay: 194
+    content: e
+  - delay: 362
+    content: s
+  - delay: 1316
+    content: ;
+  - delay: 650
+    content: "\r\n"
+  - delay: 16
+    content: "\e[?25l+--------------------+\r\n| Database           |\r\n+--------------------+\r\n| arsip              |\r\n| information_schema |\r\n| mysql              |\r\n| performance_schema |\r\n| perpus             |\r\n| perpustakaan       |\r\n| sys                |\r\n+--------------------+\r\n7 rows in set (0.001 sec)\e[30;1HMariaDB [(none)]> \e[?25h"
+  - delay: 18141
+    content: ^V
+  - delay: 1048
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 1342
+    content: ^V
+  - delay: 826
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 910
+    content: ^V
+  - delay: 794
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 3000
+    content: S
+  - delay: 209
+    content: E
+  - delay: 207
+    content: E
+  - delay: 594
+    content: "\b \b"
+  - delay: 155
+    content: "\b \b"
+  - delay: 92
+    content: "\b \b"
+  - delay: 728
+    content: S
+  - delay: 397
+    content: "\b \b"
+  - delay: 1703
+    content: ^V
+  - delay: 618
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 842
+    content: s
+  - delay: 252
+    content: w
+  - delay: 145
+    content: l
+  - delay: 117
+    content: e
+  - delay: 643
+    content: "\b \b"
+  - delay: 154
+    content: "\b \b"
+  - delay: 337
+    content: "\b \b"
+  - delay: 588
+    content: e
+  - delay: 220
+    content: l
+  - delay: 128
+    content: e
+  - delay: 352
+    content: c
+  - delay: 132
+    content: t
+  - delay: 335
+    content: ' '
+  - delay: 422
+    content: f
+  - delay: 305
+    content: r
+  - delay: 113
+    content: o
+  - delay: 850
+    content: ','
+  - delay: 821
+    content: "\b \b"
+  - delay: 350
+    content: m
+  - delay: 394
+    content: ' '
+  - delay: 509
+    content: '*'
+  - delay: 404
+    content: ' '
+  - delay: 250
+    content: b
+  - delay: 225
+    content: u
+  - delay: 226
+    content: k
+  - delay: 213
+    content: u
+  - delay: 276
+    content: ' '
+  - delay: 669
+    content: (
+  - delay: 22407
+    content: "\b"
+  - delay: 151
+    content: "\b"
+  - delay: 1401
+    content: "\e[?25l\e[30;19Hselect from * buk (  \e[30;36H\e[?25h"
+  - delay: 177
+    content: "\e[?25l\e[30;19Hselect from * bu (  \e[30;35H\e[?25h"
+  - delay: 126
+    content: "\e[?25l\e[30;19Hselect from * b (  \e[30;34H\e[?25h"
+  - delay: 113
+    content: "\e[?25l\e[30;19Hselect from *  (  \e[30;33H\e[?25h"
+  - delay: 110
+    content: "\e[?25l\e[30;19Hselect from * (  \e[30;32H\e[?25h"
+  - delay: 108
+    content: "\e[?25l\e[30;19Hselect from  (  \e[30;31H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e[30;19Hselect from (  \e[30;30H\e[?25h"
+  - delay: 128
+    content: "\e[?25l\e[30;19Hselect fro (  \e[30;29H\e[?25h"
+  - delay: 105
+    content: "\e[?25l\e[30;19Hselect fr (  \e[30;28H\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e[30;19Hselect f (  \e[30;27H\e[?25h"
+  - delay: 123
+    content: "\e[?25l\e[30;19Hselect  (  \e[30;26H\e[?25h"
+  - delay: 103
+    content: "\e[?25l\e[30;19Hselect (  \e[30;25H\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[30;19Hselec (  \e[30;24H\e[?25h"
+  - delay: 115
+    content: "\e[?25l\e[30;19Hsele (  \e[30;23H\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e[30;19Hsel (  \e[30;22H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e[30;19Hse (  \e[30;21H\e[?25h"
+  - delay: 383
+    content: "\e[?25l\e[30;19Hs (  \e[30;20H\e[?25h"
+  - delay: 288
+    content: "\e[?25l\b (  \e[30;19H\e[?25h"
+  - delay: 794
+    content: "\e[?25lc (\e[30;20H\e[?25h"
+  - delay: 300
+    content: "\e[?25l\bcr (\e[30;21H\e[?25h"
+  - delay: 87
+    content: "\e[?25l\e[30;19Hcre (\e[30;22H\e[?25h"
+  - delay: 306
+    content: "\e[?25l\e[30;19Hcrea (\e[30;23H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e[30;19Hcreat (\e[30;24H\e[?25h"
+  - delay: 914
+    content: "\e[?25l\e[30;19Hcreat  (\e[30;25H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e[30;19Hcreat t (\e[30;26H\e[?25h"
+  - delay: 79
+    content: "\e[?25l\e[30;19Hcreat ta (\e[30;27H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\e[30;19Hcreat tab (\e[30;28H\e[?25h"
+  - delay: 267
+    content: "\e[?25l\e[30;19Hcreat tabl (\e[30;29H\e[?25h"
+  - delay: 170
+    content: "\e[?25l\e[30;19Hcreat table (\e[30;30H\e[?25h"
+  - delay: 1668
+    content: "\e[?25l\e[30;19Hcreat table  (\e[30;31H\e[?25h"
+  - delay: 200
+    content: "\e[?25l\e[30;19Hcreat table b (\e[30;32H\e[?25h"
+  - delay: 190
+    content: "\e[?25l\e[30;19Hcreat table bu (\e[30;33H\e[?25h"
+  - delay: 189
+    content: "\e[?25l\e[30;19Hcreat table buk (\e[30;34H\e[?25h"
+  - delay: 194
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[30;35H\e[?25h"
+  - delay: 662
+    content: "\e[?25l\e[30;19Hcreat table buku ( \r\e[?25h\n    ->\e[1C"
+  - delay: 14811
+    content: ^V
+  - delay: 843
+    content: "\e[?25l\e[30;8H  \e[30;8H\e[?25h"
+  - delay: 936
+    content: ^V
+  - delay: 1095
+    content: "\e[?25l\e[30;8H  \e[30;8H\e[?25h"
+  - delay: 20581
+    content: I
+  - delay: 236
+    content: 'N'
+  - delay: 656
+    content: T
+  - delay: 323
+    content: ' '
+  - delay: 11948
+    content: "\b \b"
+  - delay: 192
+    content: "\b \b"
+  - delay: 5009
+    content: "\b \b"
+  - delay: 170
+    content: "\b \b"
+  - delay: 2136
+    content: i
+  - delay: 187
+    content: d
+  - delay: 1481
+    content: _
+  - delay: 609
+    content: b
+  - delay: 228
+    content: u
+  - delay: 216
+    content: k
+  - delay: 218
+    content: u
+  - delay: 715
+    content: ' '
+  - delay: 583
+    content: I
+  - delay: 261
+    content: 'N'
+  - delay: 514
+    content: T
+  - delay: 781
+    content: ' '
+  - delay: 1421
+    content: P
+  - delay: 289
+    content: R
+  - delay: 627
+    content: I
+  - delay: 391
+    content: M
+  - delay: 253
+    content: A
+  - delay: 314
+    content: R
+  - delay: 137
+    content: 'Y'
+  - delay: 314
+    content: ' '
+  - delay: 288
+    content: K
+  - delay: 191
+    content: E
+  - delay: 136
+    content: 'Y'
+  - delay: 1250
+    content: ' '
+  - delay: 494
+    content: A
+  - delay: 196
+    content: U
+  - delay: 205
+    content: T
+  - delay: 135
+    content: O
+  - delay: 408
+    content: ' '
+  - delay: 1058
+    content: "\b \b"
+  - delay: 443
+    content: _
+  - delay: 2183
+    content: I
+  - delay: 207
+    content: 'N'
+  - delay: 289
+    content: C
+  - delay: 224
+    content: R
+  - delay: 164
+    content: E
+  - delay: 131
+    content: M
+  - delay: 29
+    content: E
+  - delay: 198
+    content: 'N'
+  - delay: 610
+    content: T
+  - delay: 3238
+    content: ','
+  - delay: 1339
+    content: "\r\n"
+  - delay: 16
+    content: '    -> '
+  - delay: 8098
+    content: J
+  - delay: 157
+    content: U
+  - delay: 38
+    content: D
+  - delay: 143
+    content: U
+  - delay: 300
+    content: L
+  - delay: 596
+    content: "\b \b"
+  - delay: 220
+    content: "\b \b"
+  - delay: 2278
+    content: "\b \b"
+  - delay: 338
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 2791
+    content: j
+  - delay: 172
+    content: u
+  - delay: 71
+    content: d
+  - delay: 136
+    content: u
+  - delay: 599
+    content: l
+  - delay: 234
+    content: ' '
+  - delay: 454
+    content: c
+  - delay: 568
+    content: "\b \b"
+  - delay: 407
+    content: v
+  - delay: 136
+    content: a
+  - delay: 146
+    content: r
+  - delay: 817
+    content: c
+  - delay: 109
+    content: h
+  - delay: 182
+    content: a
+  - delay: 177
+    content: e
+  - delay: 813
+    content: "\b \b"
+  - delay: 271
+    content: r
+  - delay: 3357
+    content: ' '
+  - delay: 973
+    content: (
+  - delay: 722
+    content: '1'
+  - delay: 534
+    content: '0'
+  - delay: 153
+    content: '0'
+  - delay: 1356
+    content: )
+  - delay: 2749
+    content: "\b"
+  - delay: 144
+    content: "\b"
+  - delay: 114
+    content: "\b"
+  - delay: 1151
+    content: "\e[?25l\e[30;8Hjudul varchar (00)  \e[30;23H\e[?25h"
+  - delay: 1522
+    content: "\e[?25l\e[30;8Hjudul varchar (500)\e[30;24H\e[?25h"
+  - delay: 4764
+    content: "\e[1C"
+  - delay: 479
+    content: "\e[?25l\e[30;8Hjudul varchar (50)  \e[30;24H\e[?25h"
+  - delay: 994
+    content: "\e[?25l\e[30;8Hjudul varchar (0)  \e[30;23H\e[?25h"
+  - delay: 1535
+    content: "\e[?25l\e[30;8Hjudul varchar (10)\e[30;24H\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e[30;8Hjudul varchar (150)\e[30;25H\e[?25h"
+  - delay: 2294
+    content: "\e[1C"
+  - delay: 228
+    content: "\e[1C"
+  - delay: 775
+    content: ' '
+  - delay: 8488
+    content: 'n'
+  - delay: 234
+    content: o
+  - delay: 215
+    content: t
+  - delay: 162
+    content: ' '
+  - delay: 280
+    content: 'n'
+  - delay: 333
+    content: u
+  - delay: 1025
+    content: l
+  - delay: 186
+    content: l
+  - delay: 678
+    content: ','
+  - delay: 785
+    content: "\r\n    ->\e[1C"
+  - delay: 3768
+    content: p
+  - delay: 174
+    content: e
+  - delay: 180
+    content: 'n'
+  - delay: 572
+    content: u
+  - delay: 859
+    content: l
+  - delay: 364
+    content: a
+  - delay: 786
+    content: "\b \b"
+  - delay: 454
+    content: i
+  - delay: 163
+    content: s
+  - delay: 171
+    content: ' '
+  - delay: 405
+    content: v
+  - delay: 134
+    content: a
+  - delay: 143
+    content: r
+  - delay: 297
+    content: c
+  - delay: 118
+    content: h
+  - delay: 238
+    content: a
+  - delay: 103
+    content: r
+  - delay: 334
+    content: ' '
+  - delay: 680
+    content: (
+  - delay: 676
+    content: '1'
+  - delay: 216
+    content: '0'
+  - delay: 144
+    content: '0'
+  - delay: 593
+    content: )
+  - delay: 2054
+    content: .
+  - delay: 546
+    content: "\b \b"
+  - delay: 479
+    content: ','
+  - delay: 4473
+    content: "\r\n    ->\e[1C"
+  - delay: 1177
+    content: t
+  - delay: 204
+    content: a
+  - delay: 73
+    content: h
+  - delay: 182
+    content: u
+  - delay: 279
+    content: 'n'
+  - delay: 213
+    content: ' '
+  - delay: 295
+    content: t
+  - delay: 180
+    content: e
+  - delay: 160
+    content: r
+  - delay: 145
+    content: b
+  - delay: 302
+    content: i
+  - delay: 372
+    content: t
+  - delay: 937
+    content: "\b \b"
+  - delay: 154
+    content: "\b \b"
+  - delay: 131
+    content: "\b \b"
+  - delay: 58
+    content: "\b \b"
+  - delay: 1754
+    content: "\b \b"
+  - delay: 154
+    content: "\b \b"
+  - delay: 393
+    content: "\b \b"
+  - delay: 246
+    content: "\b \b"
+  - delay: 2799
+    content: 'n'
+  - delay: 901
+    content: '-'
+  - delay: 1535
+    content: "\b \b"
+  - delay: 655
+    content: _
+  - delay: 637
+    content: t
+  - delay: 145
+    content: e
+  - delay: 186
+    content: r
+  - delay: 148
+    content: b
+  - delay: 803
+    content: i
+  - delay: 147
+    content: t
+  - delay: 2327
+    content: ' '
+  - delay: 1238
+    content: 'y'
+  - delay: 169
+    content: e
+  - delay: 271
+    content: a
+  - delay: 165
+    content: r
+  - delay: 1191
+    content: ','
+  - delay: 1621
+    content: "\r"
+  - delay: 5
+    content: |+
+
+  - delay: 6
+    content: '    -> '
+  - delay: 2695
+    content: i
+  - delay: 423
+    content: s
+  - delay: 529
+    content: b
+  - delay: 185
+    content: 'n'
+  - delay: 377
+    content: ' '
+  - delay: 443
+    content: v
+  - delay: 121
+    content: a
+  - delay: 254
+    content: r
+  - delay: 242
+    content: c
+  - delay: 100
+    content: h
+  - delay: 274
+    content: a
+  - delay: 144
+    content: r
+  - delay: 487
+    content: ' '
+  - delay: 402
+    content: (
+  - delay: 1117
+    content: '2'
+  - delay: 252
+    content: '0'
+  - delay: 718
+    content: )
+  - delay: 897
+    content: ' '
+  - delay: 607
+    content: u
+  - delay: 247
+    content: 'n'
+  - delay: 249
+    content: i
+  - delay: 2749
+    content: q
+  - delay: 276
+    content: u
+  - delay: 220
+    content: e
+  - delay: 1295
+    content: "\r\n    ->\e[1C"
+  - delay: 4541
+    content: )
+  - delay: 1228
+    content: ;
+  - delay: 767
+    content: "\r"
+  - delay: 6
+    content: "\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near 'creat table buku (\r\nid_buku INT PRIMARY KEY AUTO_INCREMENT,\r\njudul varchar (150...' at line 1"
+  - delay: 12
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 4432
+    content: );
+  - delay: 441
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 446
+    content: "\e[?25l\e[30;19Htahun_terbit year,       \e[30;37H\e[?25h"
+  - delay: 3932
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 739
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 688
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 977
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[22X\e[?25h"
+  - delay: 487
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 719
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 1058
+    content: "\b"
+  - delay: 154
+    content: "\b"
+  - delay: 496
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 248
+    content: "\b"
+  - delay: 1149
+    content: "\e[?25l\e[30;19Hcreate table buku (\e[30;25H\e[?25h"
+  - delay: 1281
+    content: "\e[?25l\e[30;19Hcreate table buku ( \r\e[?25h\n    ->\e[1C"
+  - delay: 1249
+    content: create table buku (
+  - delay: 1674
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 456
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 784
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 414
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 1822
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 2196
+    content: "\b"
+  - delay: 140
+    content: "\b"
+  - delay: 837
+    content: "\e[1C"
+  - delay: 679
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not nul,  \e[30;35H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not nu,  \e[30;34H\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not n,  \e[30;33H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not ,  \e[30;32H\e[?25h"
+  - delay: 117
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not,  \e[30;31H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e[30;8Hjudul varchar (150) no,  \e[30;30H\e[?25h"
+  - delay: 105
+    content: "\e[?25l\e[30;8Hjudul varchar (150) n,  \e[30;29H\e[?25h"
+  - delay: 111
+    content: "\e[?25l\e[30;8Hjudul varchar (150) ,  \e[30;28H\e[?25h"
+  - delay: 120
+    content: "\e[?25l\e[30;8Hjudul varchar (150),  \e[30;27H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\e[30;8Hjudul varchar (150,  \e[30;26H\e[?25h"
+  - delay: 2520
+    content: "\e[?25l\e[30;8Hjudul varchar (150),\b\e[?25h"
+  - delay: 1290
+    content: "\e[?25l\e[30;8Hjudul varchar (150), \r\e[?25h\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 1251
+    content: 'judul varchar (150),'
+  - delay: 677
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 1501
+    content: "\e[?25l\e[30;8Hjudul varchar (150),\e[?25h"
+  - delay: 659
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 238
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 432
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 2309
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 580
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 1566
+    content: "\r\n    ->\e[1C"
+  - delay: 407
+    content: 'penulis varchar (100),'
+  - delay: 653
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 1256
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 375
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 451
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 1585
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 448
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 536
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 517
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 1789
+    content: "\r\n    ->\e[1C"
+  - delay: 428
+    content: 'tahun_terbit year,'
+  - delay: 938
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 2663
+    content: "\b \b"
+  - delay: 135
+    content: "\b \b"
+  - delay: 139
+    content: "\b \b"
+  - delay: 98
+    content: "\b \b"
+  - delay: 95
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 706
+    content: "\r\n    ->\e[1C"
+  - delay: 962
+    content: 'isbn varchar (20) '
+  - delay: 1028
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 323
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 344
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 384
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 669
+    content: "\r\n"
+  - delay: 23
+    content: 'ERROR 1046 (3D000): No database selected'
+  - delay: 9
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 34743
+    content: ^V
+  - delay: 755
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 1126
+    content: c
+  - delay: 318
+    content: r
+  - delay: 89
+    content: e
+  - delay: 183
+    content: t
+  - delay: 79
+    content: a
+  - delay: 1349
+    content: "\b \b"
+  - delay: 135
+    content: e
+  - delay: 477
+    content: ' '
+  - delay: 352
+    content: t
+  - delay: 151
+    content: a
+  - delay: 158
+    content: b
+  - delay: 850
+    content: l
+  - delay: 177
+    content: e
+  - delay: 210
+    content: ' '
+  - delay: 161
+    content: a
+  - delay: 213
+    content: 'n'
+  - delay: 229
+    content: g
+  - delay: 113
+    content: g
+  - delay: 514
+    content: o
+  - delay: 261
+    content: 'y'
+  - delay: 987
+    content: "\b \b"
+  - delay: 410
+    content: t
+  - delay: 187
+    content: a
+  - delay: 1275
+    content: '0'
+  - delay: 822
+    content: "\b \b"
+  - delay: 906
+    content: (
+  - delay: 2087
+    content: "\b \b"
+  - delay: 351
+    content: ' '
+  - delay: 526
+    content: (
+  - delay: 2148
+    content: "\r\n    ->\e[1C"
+  - delay: 10214
+    content: crete table anggota (
+  - delay: 404
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 211
+    content: "\e[?25l\e[30;8Hisbn varchar (20) \e[?25h"
+  - delay: 317
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 358
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 257
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 281
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 2518
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 547
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 364
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 438
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 460
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 1669
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 8044
+    content: 'id_buku INT PRIMARY KEY AUTO_INCREMENT,'
+  - delay: 175
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 392
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 1288
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 344
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 315
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 374
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 1355
+    content: "\b"
+  - delay: 805
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not nul,  \e[30;35H\e[?25h"
+  - delay: 163
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not nu,  \e[30;34H\e[?25h"
+  - delay: 111
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not n,  \e[30;33H\e[?25h"
+  - delay: 104
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not ,  \e[30;32H\e[?25h"
+  - delay: 120
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not,  \e[30;31H\e[?25h"
+  - delay: 113
+    content: "\e[?25l\e[30;8Hjudul varchar (150) no,  \e[30;30H\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e[30;8Hjudul varchar (150) n,  \e[30;29H\e[?25h"
+  - delay: 123
+    content: "\e[?25l\e[30;8Hjudul varchar (150) ,  \e[30;28H\e[?25h"
+  - delay: 98
+    content: "\e[?25l\e[30;8Hjudul varchar (150),  \e[30;27H\e[?25h"
+  - delay: 712
+    content: "\e[?25l\e[30;8Hjudul varchar (150), \r\e[?25h\n    ->\e[1C"
+  - delay: 1492
+    content: 'judul varchar (150),'
+  - delay: 682
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 7667
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 345
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 335
+    content: "\e[?25l\e[30;8Hisbn varchar (20) \e[?25h"
+  - delay: 360
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 1167
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 6294
+    content: 'penulis varchar (100),'
+  - delay: 311
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 832
+    content: "\e[?25l\e[30;8Hjudul varchar (150), \b\e[?25h"
+  - delay: 1284
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 414
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 387
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 266
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 611
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 388
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 984
+    content: "\r\n    ->\e[1C"
+  - delay: 689
+    content: 'tahun_terbit year,'
+  - delay: 478
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 775
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 1106
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 485
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 677
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 1501
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 276
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 364
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 747
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 1269
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 758
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 500
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 1769
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 118
+    content: "\b \b"
+  - delay: 111
+    content: "\b \b"
+  - delay: 117
+    content: "\b \b"
+  - delay: 105
+    content: "\b \b"
+  - delay: 111
+    content: "\b \b"
+  - delay: 521
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 579
+    content: isbn varchar (20)
+  - delay: 392
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 316
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 301
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 334
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 447
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 951
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near 'crete table anggota (\r\nid_buku INT PRIMARY KEY AUTO_INCREMENT,\r\njudul varchar (...' at line 1"
+  - delay: 15
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 86910
+    content: );
+  - delay: 383
+    content: "\e[?25l\e[30;19Hisbn varchar (20) \e[?25h"
+  - delay: 303
+    content: "\e[?25l\e[30;19Htahun_terbit year, \b\e[?25h"
+  - delay: 230
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 279
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 288
+    content: "\e[?25l\e[30;19Hcreate table buku (  \e[30;38H\e[?25h"
+  - delay: 371
+    content: "\e[?25l\e[30;19H);\e[18X\e[?25h"
+  - delay: 464
+    content: "\e[?25l\e[30;19Hcreate table buku (\e[?25h"
+  - delay: 590
+    content: "\b"
+  - delay: 211
+    content: "\b"
+  - delay: 499
+    content: "\b"
+  - delay: 2462
+    content: "\e[1C"
+  - delay: 217
+    content: "\e[1C"
+  - delay: 724
+    content: "\e[?25l\e[30;19H);\e[18X\e[?25h"
+  - delay: 417
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 465
+    content: "\e[?25l\e[30;19Htahun_terbit year,       \e[30;37H\e[?25h"
+  - delay: 271
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 344
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 594
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 1126
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[22X\e[?25h"
+  - delay: 517
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 1017
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 1769
+    content: "\b"
+  - delay: 420
+    content: "\b"
+  - delay: 625
+    content: "\e[?25l\e[30;19Hcreat table buk (  \e[30;34H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e[30;19Hcreat table bu (  \e[30;33H\e[?25h"
+  - delay: 100
+    content: "\e[?25l\e[30;19Hcreat table b (  \e[30;32H\e[?25h"
+  - delay: 119
+    content: "\e[?25l\e[30;19Hcreat table  (  \e[30;31H\e[?25h"
+  - delay: 532
+    content: "\e[?25l\e[30;19Hcreat table (  \e[30;30H\e[?25h"
+  - delay: 247
+    content: "\e[?25l\e[30;19Hcreat tabl (  \e[30;29H\e[?25h"
+  - delay: 119
+    content: "\e[?25l\e[30;19Hcreat tab (  \e[30;28H\e[?25h"
+  - delay: 108
+    content: "\e[?25l\e[30;19Hcreat ta (  \e[30;27H\e[?25h"
+  - delay: 110
+    content: "\e[?25l\e[30;19Hcreat t (  \e[30;26H\e[?25h"
+  - delay: 109
+    content: "\e[?25l\e[30;19Hcreat  (  \e[30;25H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e[30;19Hcreat (  \e[30;24H\e[?25h"
+  - delay: 114
+    content: "\e[?25l\e[30;19Hcrea (  \e[30;23H\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e[30;19Hcre (  \e[30;22H\e[?25h"
+  - delay: 132
+    content: "\e[?25l\e[30;19Hcr (  \e[30;21H\e[?25h"
+  - delay: 113
+    content: "\e[?25l\e[30;19Hc (  \e[30;20H\e[?25h"
+  - delay: 130
+    content: "\e[?25l\b (  \e[30;19H\e[?25h"
+  - delay: 1149
+    content: "\e[?25lC (\e[30;20H\e[?25h"
+  - delay: 317
+    content: "\e[?25l\bCR (\e[30;21H\e[?25h"
+  - delay: 88
+    content: "\e[?25l\e[30;19HCRE (\e[30;22H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\e[30;19HCREA (\e[30;23H\e[?25h"
+  - delay: 118
+    content: "\e[?25l\e[30;19HCREAT (\e[30;24H\e[?25h"
+  - delay: 214
+    content: "\e[?25l\e[30;19HCREATE (\e[30;25H\e[?25h"
+  - delay: 409
+    content: "\e[?25l\e[30;19HCREATE  (\e[30;26H\e[?25h"
+  - delay: 420
+    content: "\e[?25l\e[30;19HCREATE T (\e[30;27H\e[?25h"
+  - delay: 679
+    content: "\e[?25l\e[30;19HCREATE TA (\e[30;28H\e[?25h"
+  - delay: 128
+    content: "\e[?25l\e[30;19HCREATE TAB (\e[30;29H\e[?25h"
+  - delay: 269
+    content: "\e[?25l\e[30;19HCREATE TABL (\e[30;30H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e[30;19HCREATE TABLE (\e[30;31H\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[30;19HCREATE TABLE  (\e[30;32H\e[?25h"
+  - delay: 216
+    content: "\e[?25l\e[30;19HCREATE TABLE A (\e[30;33H\e[?25h"
+  - delay: 70
+    content: "\e[?25l\e[30;19HCREATE TABLE AN (\e[30;34H\e[?25h"
+  - delay: 257
+    content: "\e[?25l\e[30;19HCREATE TABLE ANG (\e[30;35H\e[?25h"
+  - delay: 688
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGG (\e[30;36H\e[?25h"
+  - delay: 586
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGO (\e[30;37H\e[?25h"
+  - delay: 372
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOT (\e[30;38H\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[30;39H\e[?25h"
+  - delay: 446
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA ( \r\e[?25h\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 2638
+    content: CREATE TABLE ANGGOTA (
+  - delay: 210
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 406
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 323
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 463
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 1169
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 472
+    content: 'judul varchar (150),'
+  - delay: 677
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 445
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 315
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 395
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[?25h"
+  - delay: 719
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 359
+    content: "\e[?25l\e[30;8Hisbn varchar (20) \e[?25h"
+  - delay: 1260
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 404
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 393
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 342
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 459
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 463
+    content: 'penulis varchar (100),'
+  - delay: 412
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 360
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 1590
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 3192
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 437
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 446
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 338
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 2306
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 246
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 9
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 222
+    content: "\e[?25l\e[30;8Hcreat table buku ( \b\e[?25h"
+  - delay: 294
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 278
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 258
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 295
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 306
+    content: "\e[?25l\e[30;8H);\e[23X\e[?25h"
+  - delay: 796
+    content: "\r\nERROR 1046 (3D000): No database selected"
+  - delay: 12
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 1533
+    content: );
+  - delay: 335
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 534
+    content: "\e[?25l\e[30;19Htahun_terbit year,       \e[30;37H\e[?25h"
+  - delay: 298
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 387
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 1045
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 478
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[22X\e[?25h"
+  - delay: 353
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 1234
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 398
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 334
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),        \e[30;41H\e[?25h"
+  - delay: 434
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 351
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 296
+    content: "\e[?25l\e[30;19H);\e[23X\e[?25h"
+  - delay: 435
+    content: "\e[?25l\e[30;19Hcreate table buku (\e[?25h"
+  - delay: 866
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[?25h"
+  - delay: 559
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 306
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 313
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \b\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[30;19H);\e[17X\e[?25h"
+  - delay: 445
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[?25h"
+  - delay: 332
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 690
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 1744
+    content: "\b"
+  - delay: 499
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 316
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 594
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[20X\e[?25h"
+  - delay: 531
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 233
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \e[30;36H\e[?25h"
+  - delay: 395
+    content: "\e[?25l\e[30;19H);\e[16X\e[?25h"
+  - delay: 395
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 456
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 404
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 940
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 1181
+    content: CREATE TABLE ANGGOTA (
+  - delay: 1927
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 326
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 335
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 2211
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 412
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 315
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 273
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 398
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 11543
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 2458
+    content: 'id_buku INT PRIMARY KEY AUTO_INCREMENT,'
+  - delay: 449
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 637
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 483
+    content: "\e[?25l\e[30;8Hisbn varchar (20) \e[?25h"
+  - delay: 265
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 290
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 342
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 355
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 405
+    content: "\e[?25l\e[30;8Hjudul varchar (150),\e[?25h"
+  - delay: 1804
+    content: "\r\n    ->\e[1C"
+  - delay: 1293
+    content: 'judul varchar (150),'
+  - delay: 465
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 424
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 366
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 537
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 331
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 1108
+    content: "\r\n    ->\e[1C"
+  - delay: 1330
+    content: 'penulis varchar (100),'
+  - delay: 436
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 441
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 444
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 747
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 1790
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 254
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 316
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 390
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 333
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 335
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 369
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 677
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 1728
+    content: 'tahun_terbit year,'
+  - delay: 499
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 436
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[?25h"
+  - delay: 28154
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 557
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[22X\e[?25h"
+  - delay: 592
+    content: "\e[?25l\e[30;8Hshow databases;    \e[30;23H\e[?25h"
+  - delay: 3013
+    content: "\e[?25l\e[30;8Hcreat table buku (\e[?25h"
+  - delay: 208
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 351
+    content: "\e[?25l\e[30;8Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),        \e[30;30H\e[?25h"
+  - delay: 296
+    content: "\e[?25l\e[30;8Htahun_terbit year,     \e[30;26H\e[?25h"
+  - delay: 367
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 428
+    content: "\e[?25l\e[30;8H);\e[23X\e[?25h"
+  - delay: 1365
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 918
+    content: "\b \b"
+  - delay: 155
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 207
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 209
+    content: "\b \b"
+  - delay: 126
+    content: "\b \b"
+  - delay: 640
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 1601
+    content: isbn varchar (20)
+  - delay: 357
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 257
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 216
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 237
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 259
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 252
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 836
+    content: "\r\nERROR 1046 (3D000): No database selected"
+  - delay: 23
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 5652
+    content: );
+  - delay: 460
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 696
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 544
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 914
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 824
+    content: CREATE TABLE ANGGOTA (
+  - delay: 15370
+    content: "\b \b"
+  - delay: 1166
+    content: "\b \b"
+  - delay: 498
+    content: "\b \b"
+  - delay: 38
+    content: "\b \b"
+  - delay: 27
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 157
+    content: "\b \b"
+  - delay: 134
+    content: "\b \b"
+  - delay: 336
+    content: "\b \b"
+  - delay: 728
+    content: ^V
+  - delay: 912
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 2700
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 110
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 1520
+    content: ^V
+  - delay: 375
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 344
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 214
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 1183
+    content: "\e[?25l\e[30;8H);\e[16X\e[?25h"
+  - delay: 485
+    content: "\r\nERROR 1046 (3D000): No database selected"
+  - delay: 22
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 1597
+    content: );
+  - delay: 471
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 878
+    content: "\e[?25l\e[30;19Htahun_terbit year,\e[?25h"
+  - delay: 630
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 480
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 274
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 484
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 340
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 556
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 279
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 381
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 334
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 645
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 276
+    content: "\e[?25l\e[30;19Htahun_terbit year,\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 341
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 943
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 794
+    content: "\e[?25l\e[30;19H);\e[20X\e[?25h"
+  - delay: 401
+    content: "\e[?25l\e[30;19Hisbn varchar (20) \e[?25h"
+  - delay: 452
+    content: "\e[?25l\e[30;19Htahun_terbit year, \b\e[?25h"
+  - delay: 435
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 424
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 449
+    content: "\e[?25l\e[30;19Hcreate table buku (  \e[30;38H\e[?25h"
+  - delay: 357
+    content: "\e[?25l\e[30;19H);\e[18X\e[?25h"
+  - delay: 427
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 373
+    content: "\e[?25l\e[30;19Htahun_terbit year,       \e[30;37H\e[?25h"
+  - delay: 335
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 249
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 384
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 815
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[22X\e[?25h"
+  - delay: 413
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 1532
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 273
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 208
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 189
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),        \e[30;41H\e[?25h"
+  - delay: 397
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 277
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 271
+    content: "\e[?25l\e[30;19H);\e[23X\e[?25h"
+  - delay: 389
+    content: "\e[?25l\e[30;19Hcreate table buku (\e[?25h"
+  - delay: 329
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[?25h"
+  - delay: 536
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 538
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 1138
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \b\e[?25h"
+  - delay: 553
+    content: "\e[?25l\e[30;19H);\e[17X\e[?25h"
+  - delay: 517
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[?25h"
+  - delay: 834
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 837
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[20X\e[?25h"
+  - delay: 419
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 436
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 377
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \e[30;36H\e[?25h"
+  - delay: 393
+    content: "\e[?25l\e[30;19H);\e[16X\e[?25h"
+  - delay: 478
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 1159
+    content: "\r\n"
+  - delay: 12
+    content: '    -> '
+  - delay: 52508
+    content: CREATE TABLE ANGGOTA (
+  - delay: 399
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 148
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[30;8Hisbn varchar (20)  \e[30;25H\e[?25h"
+  - delay: 404
+    content: "\e[?25l\e[30;8H);\e[16X\e[?25h"
+  - delay: 453
+    content: "\r\nERROR 1046 (3D000): No database selected"
+  - delay: 12
+    content: "\r\nMariaDB [(none)]>\e[1C"
+  - delay: 746
+    content: U
+  - delay: 128
+    content: S
+  - delay: 193
+    content: E
+  - delay: 173
+    content: ' '
+  - delay: 561
+    content: P
+  - delay: 118
+    content: E
+  - delay: 194
+    content: R
+  - delay: 64
+    content: P
+  - delay: 291
+    content: U
+  - delay: 155
+    content: S
+  - delay: 934
+    content: "\r\n"
+  - delay: 29
+    content: Database changed
+  - delay: 14
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 6452
+    content: USE PERPUS
+  - delay: 399
+    content: "\e[?25l\e[30;19H);\e[9X\e[?25h"
+  - delay: 372
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 1177
+    content: "\r\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 839
+    content: CREATE TABLE ANGGOTA (
+  - delay: 599
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 322
+    content: "\e[?25l\e[30;8H^V \b\e[?25h"
+  - delay: 230
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 236
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 363
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 425
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 255
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 417
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 414
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 3401
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 492
+    content: 'id_buku INT PRIMARY KEY AUTO_INCREMENT,'
+  - delay: 407
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 286
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 322
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 338
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 529
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 1443
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 1333
+    content: 'judul varchar (150),'
+  - delay: 413
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 326
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 311
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 240
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 303
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e[30;8H);\e[21X\e[?25h"
+  - delay: 262
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 467
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 382
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 1019
+    content: "\r\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 540
+    content: 'penulis varchar (100),'
+  - delay: 435
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 1449
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 426
+    content: "\e[?25l\e[30;8Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 474
+    content: "\e[?25l\e[30;8H);\e[20X\e[?25h"
+  - delay: 361
+    content: "\e[?25l\e[30;8Hisbn varchar (20) \e[?25h"
+  - delay: 247
+    content: "\e[?25l\e[30;8Htahun_terbit year, \b\e[?25h"
+  - delay: 1372
+    content: "\r\n    ->\e[1C"
+  - delay: 377
+    content: 'tahun_terbit year,'
+  - delay: 322
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 321
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 332
+    content: "\e[?25l\e[30;8Hcreate table buku (  \e[30;27H\e[?25h"
+  - delay: 304
+    content: "\e[?25l\e[30;8H);\e[18X\e[?25h"
+  - delay: 368
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[30;8Htahun_terbit year,       \e[30;26H\e[?25h"
+  - delay: 380
+    content: "\e[?25l\e[30;8Hisbn varchar (20) unique\e[?25h"
+  - delay: 902
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 110
+    content: "\b \b"
+  - delay: 110
+    content: "\b \b"
+  - delay: 104
+    content: "\b \b"
+  - delay: 119
+    content: "\b \b"
+  - delay: 104
+    content: "\b \b"
+  - delay: 384
+    content: "\r\n"
+  - delay: 10
+    content: '    -> '
+  - delay: 336
+    content: isbn varchar (20)
+  - delay: 444
+    content: "\e[?25l\e[30;8Htahun_terbit year,\e[?25h"
+  - delay: 293
+    content: "\e[?25l\e[30;8Hpenulis varchar (100),\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[30;8Hjudul varchar (150),   \e[30;28H\e[?25h"
+  - delay: 283
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 464
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 373
+    content: "\e[?25l\e[30;8HUSE PERPUS\e[13X\e[?25h"
+  - delay: 845
+    content: "\e[?25l\e[30;8H);\e[9X\e[?25h"
+  - delay: 346
+    content: "\e[?25l\e[30;8HUSE PERPUS\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 444
+    content: "\e[?25l\e[30;8Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 304
+    content: "\e[?25l\e[30;8HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 181
+    content: "\e[?25l\e[30;8HUSE PERPUS\e[13X\e[?25h"
+  - delay: 154
+    content: "\e[?25l\e[30;8H);\e[9X\e[?25h"
+  - delay: 747
+    content: "\r\n"
+  - delay: 47
+    content: 'ERROR 1050 (42S01): Table ''anggota'' already exists'
+  - delay: 20
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 30861
+    content: S
+  - delay: 773
+    content: O
+  - delay: 150
+    content: W
+  - delay: 696
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 553
+    content: H
+  - delay: 183
+    content: O
+  - delay: 211
+    content: W
+  - delay: 186
+    content: ' '
+  - delay: 574
+    content: T
+  - delay: 152
+    content: A
+  - delay: 129
+    content: B
+  - delay: 267
+    content: L
+  - delay: 229
+    content: E
+  - delay: 4393
+    content: S
+  - delay: 1659
+    content: ':'
+  - delay: 529
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 1810
+    content: 'SHOW TABLES:'
+  - delay: 357
+    content: "\e[?25l\e[30;8H);\e[11X\e[?25h"
+  - delay: 216
+    content: "\e[?25l\e[30;8Hisbn varchar (20)\e[?25h"
+  - delay: 744
+    content: "\e[?25l\e[30;8H);\e[16X\e[?25h"
+  - delay: 961
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near ':\r\n)' at line 1"
+  - delay: 6
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 2791
+    content: );
+  - delay: 377
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 847
+    content: "\e[?25l\e[30;19H);\e[16X\e[?25h"
+  - delay: 134
+    content: "\e[?25l\e[30;19HSHOW TABLES:\e[?25h"
+  - delay: 2234
+    content: "\b \b"
+  - delay: 1093
+    content: ':'
+  - delay: 889
+    content: "\b \b"
+  - delay: 377
+    content: ;
+  - delay: 745
+    content: "\r\n"
+  - delay: 13
+    content: "+------------------+\r\n| Tables_in_perpus |\r\n+------------------+\r\n|\e[1Canggota          |\r\n+------------------+\r\n1 row in set (0.013 sec)\r\n"
+  - delay: 14
+    content: "\nMariaDB [PERPUS]>\e[1C"
+  - delay: 19626
+    content: C
+  - delay: 518
+    content: R
+  - delay: 134
+    content: E
+  - delay: 266
+    content: A
+  - delay: 139
+    content: T
+  - delay: 561
+    content: E
+  - delay: 214
+    content: ' '
+  - delay: 361
+    content: T
+  - delay: 148
+    content: A
+  - delay: 113
+    content: B
+  - delay: 405
+    content: L
+  - delay: 244
+    content: E
+  - delay: 173
+    content: S
+  - delay: 324
+    content: ' '
+  - delay: 886
+    content: E
+  - delay: 366
+    content: X
+  - delay: 146
+    content: I
+  - delay: 341
+    content: T
+  - delay: 115
+    content: E
+  - delay: 356
+    content: ' '
+  - delay: 503
+    content: "\b \b"
+  - delay: 353
+    content: "\b \b"
+  - delay: 392
+    content: ' '
+  - delay: 193
+    content: A
+  - delay: 104
+    content: 'N'
+  - delay: 239
+    content: G
+  - delay: 482
+    content: G
+  - delay: 514
+    content: O
+  - delay: 338
+    content: T
+  - delay: 148
+    content: A
+  - delay: 1385
+    content: ' '
+  - delay: 490
+    content: '9'
+  - delay: 741
+    content: "\b \b"
+  - delay: 650
+    content: (
+  - delay: 846
+    content: "\r\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 1023
+    content: CREATE TABLES EXIT ANGGOTA (
+  - delay: 412
+    content: "\e[?25l\e[30;8HSHOW TABLES;\e[17X\e[?25h"
+  - delay: 164
+    content: "\e[?25l\e[30;8H);\e[11X\e[?25h"
+  - delay: 691
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near 'TABLES EXIT ANGGOTA (\r\n)' at line 1"
+  - delay: 16
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 3857
+    content: );
+  - delay: 461
+    content: "\e[?25l\e[30;19HSHOW TABLES:\e[?25h"
+  - delay: 1292
+    content: "\e[?25l\e[30;19H);\e[11X\e[?25h"
+  - delay: 421
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 399
+    content: "\e[?25l\e[30;19Htahun_terbit year,\e[?25h"
+  - delay: 473
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 349
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 375
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 882
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 597
+    content: "\e[?25l\e[30;19HUSE PERPUS\e[13X\e[?25h"
+  - delay: 347
+    content: "\e[?25l\e[30;19H);\e[9X\e[?25h"
+  - delay: 339
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 338
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e[30;19H^V \b\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 412
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 361
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 338
+    content: "\e[?25l\e[30;19Htahun_terbit year,\e[?25h"
+  - delay: 389
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 317
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 576
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[18X\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 650
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 308
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 270
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 196
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 440
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 346
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 437
+    content: "\e[?25l\e[30;19Hisbn varchar (20)\e[?25h"
+  - delay: 299
+    content: "\e[?25l\e[30;19Htahun_terbit year,\e[?25h"
+  - delay: 323
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 472
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 370
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 678
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[19X\e[?25h"
+  - delay: 377
+    content: "\e[?25l\e[30;19H);\e[20X\e[?25h"
+  - delay: 529
+    content: "\e[?25l\e[30;19Hisbn varchar (20) \e[?25h"
+  - delay: 353
+    content: "\e[?25l\e[30;19Htahun_terbit year, \b\e[?25h"
+  - delay: 359
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 388
+    content: "\e[?25l\e[30;19Hcreate table buku (  \e[30;38H\e[?25h"
+  - delay: 365
+    content: "\e[?25l\e[30;19H);\e[18X\e[?25h"
+  - delay: 618
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 356
+    content: "\e[?25l\e[30;19Htahun_terbit year,       \e[30;37H\e[?25h"
+  - delay: 357
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 340
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 359
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 627
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[22X\e[?25h"
+  - delay: 404
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 1623
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e[30;19Hshow databases;    \e[30;34H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[30;19Hcreat table buku (\e[?25h"
+  - delay: 265
+    content: "\e[?25l\e[30;19Hcreat table buku ( \b\e[?25h"
+  - delay: 323
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 258
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 451
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),        \e[30;41H\e[?25h"
+  - delay: 303
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 828
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 286
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[?25h"
+  - delay: 290
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 384
+    content: "\e[?25l\e[30;19Hjudul varchar (150) not null,\e[11X\e[?25h"
+  - delay: 206
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),        \e[30;41H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 317
+    content: "\e[?25l\e[30;19Hisbn varchar (20) unique\e[?25h"
+  - delay: 327
+    content: "\e[?25l\e[30;19H);\e[23X\e[?25h"
+  - delay: 261
+    content: "\e[?25l\e[30;19Hcreate table buku (\e[?25h"
+  - delay: 442
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[?25h"
+  - delay: 541
+    content: "\e[?25l\e[30;19Hcreate table buku (  \e[30;38H\e[?25h"
+  - delay: 428
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[?25h"
+  - delay: 310
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 427
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \b\e[?25h"
+  - delay: 424
+    content: "\e[?25l\e[30;19H);\e[17X\e[?25h"
+  - delay: 425
+    content: "\e[?25l\e[30;19Hcrete table anggota (\e[?25h"
+  - delay: 1101
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 924
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[20X\e[?25h"
+  - delay: 407
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 379
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 326
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \e[30;36H\e[?25h"
+  - delay: 363
+    content: "\e[?25l\e[30;19H);\e[16X\e[?25h"
+  - delay: 439
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 768
+    content: "\e[?25l\e[30;19Hjudul varchar (150),   \e[30;39H\e[?25h"
+  - delay: 465
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 459
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 386
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 758
+    content: "\e[?25l\e[30;19Hid_buku INT PRIMARY KEY AUTO_INCREMENT,\e[?25h"
+  - delay: 554
+    content: "\e[?25l\e[30;19Hjudul varchar (150),\e[20X\e[?25h"
+  - delay: 405
+    content: "\e[?25l\e[30;19Hpenulis varchar (100),\e[?25h"
+  - delay: 186
+    content: "\e[?25l\e[30;19Htahun_terbit year,     \e[30;37H\e[?25h"
+  - delay: 433
+    content: "\e[?25l\e[30;19Hisbn varchar (20)  \e[30;36H\e[?25h"
+  - delay: 344
+    content: "\e[?25l\e[30;19H);\e[16X\e[?25h"
+  - delay: 467
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 726
+    content: "\e[?25l\e[30;19H^V\e[21X\e[?25h"
+  - delay: 279
+    content: "\e[?25l\e[30;19H); \b\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e[30;19HCREATE TABLE ANGGOTA (\e[?25h"
+  - delay: 571
+    content: "\e[?25l\e[30;19H);\e[21X\e[?25h"
+  - delay: 861
+    content: "\e[?25l\e[30;19HUSE PERPUS\e[?25h"
+  - delay: 1529
+    content: "\e[?25l\e[30;19H);\e[9X\e[?25h"
+  - delay: 727
+    content: "\b \b"
+  - delay: 171
+    content: "\b \b"
+  - delay: 1303
+    content: C
+  - delay: 342
+    content: R
+  - delay: 136
+    content: E
+  - delay: 662
+    content: A
+  - delay: 130
+    content: T
+  - delay: 344
+    content: E
+  - delay: 434
+    content: ' '
+  - delay: 85489
+    content: T
+  - delay: 173
+    content: A
+  - delay: 669
+    content: B
+  - delay: 312
+    content: L
+  - delay: 170
+    content: E
+  - delay: 210
+    content: S
+  - delay: 391
+    content: ' '
+  - delay: 931
+    content: E
+  - delay: 457
+    content: X
+  - delay: 540
+    content: I
+  - delay: 247
+    content: T
+  - delay: 155
+    content: E
+  - delay: 1252
+    content: "\b \b"
+  - delay: 469
+    content: ' '
+  - delay: 206
+    content: A
+  - delay: 128
+    content: 'N'
+  - delay: 193
+    content: G
+  - delay: 138
+    content: G
+  - delay: 488
+    content: O
+  - delay: 325
+    content: T
+  - delay: 163
+    content: A
+  - delay: 359
+    content: ' '
+  - delay: 737
+    content: (
+  - delay: 942
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 13049
+    content: ^V
+  - delay: 673
+    content: "\e[?25l\e[30;8H  \e[30;8H\e[?25h"
+  - delay: 729
+    content: I
+  - delay: 232
+    content: D
+  - delay: 146
+    content: ' '
+  - delay: 364
+    content: I
+  - delay: 1258
+    content: "\b \b"
+  - delay: 341
+    content: "\b \b"
+  - delay: 128
+    content: "\b \b"
+  - delay: 343
+    content: "\b \b"
+  - delay: 990
+    content: i
+  - delay: 223
+    content: d
+  - delay: 754
+    content: ' '
+  - delay: 531
+    content: I
+  - delay: 233
+    content: 'N'
+  - delay: 292
+    content: T
+  - delay: 155
+    content: ' '
+  - delay: 877
+    content: P
+  - delay: 188
+    content: R
+  - delay: 169
+    content: I
+  - delay: 252
+    content: M
+  - delay: 135
+    content: A
+  - delay: 320
+    content: R
+  - delay: 137
+    content: 'Y'
+  - delay: 265
+    content: ' '
+  - delay: 290
+    content: K
+  - delay: 185
+    content: E
+  - delay: 158
+    content: 'Y'
+  - delay: 468
+    content: ' '
+  - delay: 8109
+    content: "\b"
+  - delay: 497
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 122
+    content: "\b"
+  - delay: 115
+    content: "\b"
+  - delay: 122
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 105
+    content: "\b"
+  - delay: 1179
+    content: "\e[?25l\e[30;8Hid INT APRIMARY KEY \e[30;16H\e[?25h"
+  - delay: 1014
+    content: "\e[?25l\e[30;8Hid INT AUPRIMARY KEY \e[30;17H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\e[30;8Hid INT AUTPRIMARY KEY \e[30;18H\e[?25h"
+  - delay: 137
+    content: "\e[?25l\e[30;8Hid INT AUTOPRIMARY KEY \e[30;19H\e[?25h"
+  - delay: 371
+    content: "\e[?25l\e[30;8Hid INT AUTO PRIMARY KEY \e[30;20H\e[?25h"
+  - delay: 1258
+    content: "\e[?25l\e[30;8Hid INT AUTOPRIMARY KEY   \e[30;19H\e[?25h"
+  - delay: 626
+    content: "\e[?25l\e[30;8Hid INT AUTO_PRIMARY KEY \e[30;20H\e[?25h"
+  - delay: 918
+    content: "\e[?25l\e[30;8Hid INT AUTO_IPRIMARY KEY \e[30;21H\e[?25h"
+  - delay: 393
+    content: "\e[?25l\e[30;8Hid INT AUTO_INPRIMARY KEY \e[30;22H\e[?25h"
+  - delay: 280
+    content: "\e[?25l\e[30;8Hid INT AUTO_INVPRIMARY KEY \e[30;23H\e[?25h"
+  - delay: 551
+    content: "\e[?25l\e[30;8Hid INT AUTO_INPRIMARY KEY   \e[30;22H\e[?25h"
+  - delay: 306
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCPRIMARY KEY \e[30;23H\e[?25h"
+  - delay: 256
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCRPRIMARY KEY \e[30;24H\e[?25h"
+  - delay: 230
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREPRIMARY KEY \e[30;25H\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMPRIMARY KEY \e[30;26H\e[?25h"
+  - delay: 87
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMEPRIMARY KEY \e[30;27H\e[?25h"
+  - delay: 145
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENPRIMARY KEY \e[30;28H\e[?25h"
+  - delay: 380
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENTPRIMARY KEY \e[30;29H\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY \e[30;30H\e[?25h"
+  - delay: 6173
+    content: "\e[1C"
+  - delay: 500
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 173
+    content: "\e[1C"
+  - delay: 374
+    content: "\e[1C"
+  - delay: 1352
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY, \b\e[?25h"
+  - delay: 1678
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY   \e[30;41H\e[?25h"
+  - delay: 139
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KE   \e[30;40H\e[?25h"
+  - delay: 972
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY \b\e[?25h"
+  - delay: 598
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY, \b\e[?25h"
+  - delay: 543
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY,  \r\e[?25h\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 9330
+    content: 'N'
+  - delay: 850
+    content: "\b \b"
+  - delay: 1588
+    content: 'n'
+  - delay: 117
+    content: a
+  - delay: 145
+    content: m
+  - delay: 102
+    content: a
+  - delay: 177
+    content: ' '
+  - delay: 381
+    content: v
+  - delay: 147
+    content: a
+  - delay: 149
+    content: r
+  - delay: 427
+    content: c
+  - delay: 155
+    content: h
+  - delay: 379
+    content: R
+  - delay: 728
+    content: "\b \b"
+  - delay: 450
+    content: a
+  - delay: 227
+    content: r
+  - delay: 1832
+    content: ' '
+  - delay: 1949
+    content: (
+  - delay: 807
+    content: '1'
+  - delay: 403
+    content: '0'
+  - delay: 134
+    content: '0'
+  - delay: 754
+    content: )
+  - delay: 927
+    content: ','
+  - delay: 6782
+    content: "\b"
+  - delay: 165
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 100
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 637
+    content: "\e[1C"
+  - delay: 212
+    content: "\e[1C"
+  - delay: 219
+    content: "\e[1C"
+  - delay: 124
+    content: "\e[1C"
+  - delay: 115
+    content: "\e[1C"
+  - delay: 109
+    content: 'N'
+  - delay: 1281
+    content: "\b \b"
+  - delay: 938
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 968
+    content: e
+  - delay: 208
+    content: m
+  - delay: 181
+    content: a
+  - delay: 115
+    content: i
+  - delay: 189
+    content: l
+  - delay: 591
+    content: ' '
+  - delay: 662
+    content: v
+  - delay: 212
+    content: a
+  - delay: 117
+    content: r
+  - delay: 224
+    content: x
+  - delay: 1065
+    content: "\b \b"
+  - delay: 225
+    content: c
+  - delay: 721
+    content: h
+  - delay: 148
+    content: a
+  - delay: 175
+    content: r
+  - delay: 598
+    content: ' '
+  - delay: 1360
+    content: (
+  - delay: 1127
+    content: '1'
+  - delay: 334
+    content: '0'
+  - delay: 154
+    content: '0'
+  - delay: 800
+    content: )
+  - delay: 896
+    content: ','
+  - delay: 6475
+    content: "\b \b"
+  - delay: 636
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 1140
+    content: email varchar (100)
+  - delay: 441
+    content: "\e[?25l\e[30;8Hnama varchar (100), \b\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e[30;8Hid INT AUTO_INCREMENT PRIMARY KEY, \e[?25h"
+  - delay: 255
+    content: "\e[?25l\e[30;8HCREATE TABLES EXIT ANGGOTA (        \e[30;36H\e[?25h"
+  - delay: 206
+    content: "\e[?25l\e[30;8H);\e[27X\e[?25h"
+  - delay: 168
+    content: "\e[?25l\e[30;8HCREATE TABLES EXIT ANGGOTA (\e[?25h"
+  - delay: 458
+    content: "\e[?25l\e[30;8H);\e[27X\e[?25h"
+  - delay: 465
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near 'TABLES EXIT ANGGOTA (\r\nid INT AUTO_INCREMENT PRIMARY KEY,\e[1C\r\nnama varchar (100),...' at line 1"
+  - delay: 12
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 390801
+    content: ^V
+  - delay: 861
+    content: "\e[?25l\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 7554
+    content: c
+  - delay: 246
+    content: t
+  - delay: 223
+    content: r
+  - delay: 745
+    content: l
+  - delay: 295
+    content: ' '
+  - delay: 569
+    content: D
+  - delay: 1451
+    content: "\r\n"
+  - delay: 16
+    content: '    -> '
+  - delay: 8706
+    content: )
+  - delay: 659
+    content: "\b \b"
+  - delay: 599
+    content: )
+  - delay: 1006
+    content: "\b \b"
+  - delay: 394
+    content: )
+  - delay: 1081
+    content: "\b \b"
+  - delay: 1287
+    content: )
+  - delay: 1024
+    content: ;
+  - delay: 502
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near 'ctrl D\r\n)' at line 1"
+  - delay: 19
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 1606
+    content: ^D
+  - delay: 1347
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 87925
+    content: ^D
+  - delay: 332
+    content: "\e[?25l\e[30;8H); \b\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[30;8Hctrl D\e[?25h"
+  - delay: 447
+    content: "\e[?25l\e[30;8H);     \e[30;10H\e[?25h"
+  - delay: 696
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near '\\0004\r\n)' at line 1"
+  - delay: 14
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 3212
+    content: );
+  - delay: 592
+    content: "\e[?25l\e[30;19H^D \b\e[?25h"
+  - delay: 439
+    content: "\e[?25l\e[30;19H); \b\e[?25h"
+  - delay: 2024
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near ')' at line 1"
+  - delay: 14
+    content: "\r\nMariaDB [PERPUS]>\e[1C"
+  - delay: 3977
+    content: E
+  - delay: 509
+    content: X
+  - delay: 175
+    content: I
+  - delay: 299
+    content: T
+  - delay: 195
+    content: E
+  - delay: 542
+    content: "\b \b"
+  - delay: 345
+    content: "\r\nBye"
+  - delay: 22
+    content: "\r\n"
+  - delay: 16
+    content: 'PS C:\Users\USER> '
+  - delay: 23941
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m^D\e[?25h"
+  - delay: 792
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[30;19H  \e[30;19H\e[?25h"
+  - delay: 873
+    content: "\r\nPS C:\\Users\\USER>\e[1C"
+  - delay: 1370
+    content: "\r\nPS C:\\Users\\USER>\e[1C"
+  - delay: 826
+    content: "\r\nPS C:\\Users\\USER>\e[1C"
+  - delay: 500
+    content: "\r\nPS C:\\Users\\USER>\e[1C"
+  - delay: 1779
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m^D\e[?25h"
+  - delay: 431
+    content: "\e[m"
+  - delay: 21
+    content: "\r\n"
+  - delay: 176
+    content: "\e[38;5;9m♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the "
+  - delay: 22
+    content: "\e[m\r\n\e[38;5;9mspelling of the name, or if a path was included, verify that the path is correct and try again.\e[m\r\n\e[38;5;9mAt line:1 char:1\e[m\r\n\e[38;5;9m+ ♦\e[m\r\n\e[38;5;9m+ ~\e[m\r\n\e[38;5;9m    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException\e[m\r\n\e[38;5;9m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[38;5;9m\e[1C\e[m\r\n"
+  - delay: 8
+    content: 'PS C:\Users\USER> '
+  - delay: 100072
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93mE\e[?25h"
+  - delay: 377
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\bEV\e[?25h"
+  - delay: 814
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[30;19HE \b\e[?25h"
+  - delay: 4397
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\b \b\e[?25h"
+  - delay: 3075
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93mE\e[?25h"
+  - delay: 1440
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\bEX\e[?25h"
+  - delay: 300
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[30;19HEXI\e[?25h"
+  - delay: 332
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[30;19HEXIT\e[?25h"
+  - delay: 739
+    content: "\e[m"
+  - delay: 22
+    content: "\r\n"
