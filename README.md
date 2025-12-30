@@ -46,9 +46,44 @@ seperti :
 ```SELECT * FROM buku;```
 
 # 6. Mengakhiri Record Terminalizer
-tekan :
-```Ctrl + D```
-Recording akan otomatis tersimpan.
+ketik 
+```exit```
+
+lalu
+
+```ctrl+D```
+
+setelah itu pencet 'enter'
+
+bila hasil nya seperti ini :
+<img width="944" height="140" alt="image" src="https://github.com/user-attachments/assets/13d7fc2f-f05d-4f5e-952c-ef2db359e190" />
+ anda tinggal ketik 
+
+ ```exit```
+ nanti muncul 
+ <img width="182" height="28" alt="image" src="https://github.com/user-attachments/assets/4cf217ea-673d-49c8-be84-0ae1b0332401" />
+ itu berarti record anda berhasil
+
+# 7. cek file demo.yml
+ketik :
+```dir demo.*```
+kalau sudah muncul seperti ini :
+<img width="464" height="137" alt="image" src="https://github.com/user-attachments/assets/665de3c9-c6fa-4adf-85bc-2ff07c583c0c" 
+ berarti file demo.yml kalian berhasil di simpan
+# 8. untuk menjadikan file demo.gif
+pastikan kamu di folder terminal kalian : contoh
+C:\Users\USER
+ketika kalian sudah berada di filder tersebut
+kalian jalankan :
+
+```terminalizer render demo```
+
+tunggus sampai muncul :
+✔ GIF successfully created
+maka file demo.gif kalian sudah muncul di file local dick
+
+
+
 
 
 
