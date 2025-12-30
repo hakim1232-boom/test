@@ -68,19 +68,31 @@ bila hasil nya seperti ini :
 ketik :
 ```dir demo.*```
 kalau sudah muncul seperti ini :
-<img width="464" height="137" alt="image" src="https://github.com/user-attachments/assets/665de3c9-c6fa-4adf-85bc-2ff07c583c0c" 
+
+<img width="459" height="139" alt="image" src="https://github.com/user-attachments/assets/197b81e0-c681-4c5a-8e33-f06195867548" />
+
  berarti file demo.yml kalian berhasil di simpan
 # 8. untuk menjadikan file demo.gif
 pastikan kamu di folder terminal kalian : contoh
+
 C:\Users\USER
+
 ketika kalian sudah berada di filder tersebut
+
 kalian jalankan :
 
 ```terminalizer render demo```
 
 tunggus sampai muncul :
+
 ✔ GIF successfully created
-maka file demo.gif kalian sudah muncul di file local dick
+
+maka file demo.gif kalian sudah muncul di local dick c
+
+contoh file demo.gif
+
+<img width="884" height="435" alt="image" src="https://github.com/user-attachments/assets/ffc2b061-5dec-4563-a455-41073bab9c75" />
+
 
 
 
