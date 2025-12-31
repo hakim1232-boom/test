@@ -1,0 +1,786 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\USER
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1055
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 10
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 187
+    content: 'PS C:\Users\USER> '
+  - delay: 15057
+    content: "\e[?25l"
+  - delay: 9
+    content: " & \e[36m\"C:\\Program Files\\MariaDB 12.0\\bin\\mysql.exe\" \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 772
+    content: "\e[m"
+  - delay: 11
+    content: "\r\n"
+  - delay: 44
+    content: E
+  - delay: 18
+    content: 'nter password: '
+  - delay: 2143
+    content: '*'
+  - delay: 245
+    content: '*'
+  - delay: 220
+    content: '*'
+  - delay: 169
+    content: '*'
+  - delay: 1072
+    content: "\b"
+  - delay: 21
+    content: " \b"
+  - delay: 265
+    content: "\b"
+  - delay: 14
+    content: " \b"
+  - delay: 159
+    content: "\b"
+  - delay: 13
+    content: " \b"
+  - delay: 94
+    content: "\b"
+  - delay: 15
+    content: " \b"
+  - delay: 684
+    content: '*'
+  - delay: 777
+    content: "\b"
+  - delay: 20
+    content: " \b"
+  - delay: 661
+    content: '*'
+  - delay: 271
+    content: '*'
+  - delay: 309
+    content: '*'
+  - delay: 148
+    content: '*'
+  - delay: 126
+    content: '*'
+  - delay: 94
+    content: '*'
+  - delay: 219
+    content: '*'
+  - delay: 69
+    content: '*'
+  - delay: 182
+    content: '*'
+  - delay: 197
+    content: '*'
+  - delay: 231
+    content: '*'
+  - delay: 1052
+    content: '*'
+  - delay: 178
+    content: '*'
+  - delay: 157
+    content: '*'
+  - delay: 201
+    content: '*'
+  - delay: 82
+    content: '*'
+  - delay: 453
+    content: '*'
+  - delay: 424
+    content: "\r\n"
+  - delay: 56
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 24
+    content: "\e[?25l\r\nYour MariaDB connection id is 8\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 21728
+    content: "CREATE DATABASE perpustakaan_mini;\r\n"
+  - delay: 11
+    content: "ERROR 1007 (HY000): Can't create database 'perpustakaan_mini'; database exists\r\nMariaDB [(none)]> USE perpustakaan_mini;"
+  - delay: 4963
+    content: "\r\n"
+  - delay: 13
+    content: "Database changed\r\nMariaDB [perpustakaan_mini]> "
+  - delay: 2594
+    content: d
+  - delay: 1493
+    content: r
+  - delay: 344
+    content: o
+  - delay: 182
+    content: p
+  - delay: 1123
+    content: ' '
+  - delay: 344
+    content: d
+  - delay: 18
+    content: s
+  - delay: 334
+    content: a
+  - delay: 712
+    content: "\b \b"
+  - delay: 389
+    content: "\b \b"
+  - delay: 445
+    content: a
+  - delay: 212
+    content: t
+  - delay: 126
+    content: a
+  - delay: 128
+    content: b
+  - delay: 677
+    content: a
+  - delay: 275
+    content: s
+  - delay: 185
+    content: e
+  - delay: 215
+    content: s
+  - delay: 1952
+    content: ' '
+  - delay: 1414
+    content: ' '
+  - delay: 825
+    content: "\b \b"
+  - delay: 943
+    content: p
+  - delay: 172
+    content: e
+  - delay: 1289
+    content: r
+  - delay: 661
+    content: p
+  - delay: 282
+    content: u
+  - delay: 142
+    content: s
+  - delay: 126
+    content: t
+  - delay: 170
+    content: a
+  - delay: 139
+    content: k
+  - delay: 129
+    content: a
+  - delay: 173
+    content: a
+  - delay: 161
+    content: 'n'
+  - delay: 2729
+    content: _
+  - delay: 619
+    content: m
+  - delay: 193
+    content: i
+  - delay: 202
+    content: 'n'
+  - delay: 185
+    content: i
+  - delay: 930
+    content: ;
+  - delay: 234
+    content: "\r\n"
+  - delay: 13
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'databases perpustakaan_mini' at line 1\r\nMariaDB [perpustakaan_mini]> "
+  - delay: 3786
+    content: C
+  - delay: 550
+    content: R
+  - delay: 184
+    content: E
+  - delay: 564
+    content: A
+  - delay: 112
+    content: T
+  - delay: 231
+    content: E
+  - delay: 198
+    content: ' '
+  - delay: 206
+    content: D
+  - delay: 225
+    content: A
+  - delay: 373
+    content: T
+  - delay: 99
+    content: A
+  - delay: 243
+    content: B
+  - delay: 252
+    content: A
+  - delay: 256
+    content: S
+  - delay: 283
+    content: E
+  - delay: 883
+    content: ' '
+  - delay: 800
+    content: p
+  - delay: 244
+    content: e
+  - delay: 191
+    content: r
+  - delay: 150
+    content: p
+  - delay: 297
+    content: u
+  - delay: 291
+    content: s
+  - delay: 525
+    content: t
+  - delay: 137
+    content: a
+  - delay: 172
+    content: k
+  - delay: 146
+    content: a
+  - delay: 146
+    content: a
+  - delay: 179
+    content: 'n'
+  - delay: 1001
+    content: _
+  - delay: 414
+    content: m
+  - delay: 189
+    content: i
+  - delay: 251
+    content: 'n'
+  - delay: 203
+    content: i
+  - delay: 511
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 2079
+    content: )
+  - delay: 788
+    content: ;
+  - delay: 191
+    content: "\r\n"
+  - delay: 14
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2\r\nMariaDB [perpustakaan_mini]> "
+  - delay: 1222
+    content: c
+  - delay: 253
+    content: r
+  - delay: 920
+    content: "\b \b"
+  - delay: 107
+    content: "\b \b"
+  - delay: 543
+    content: );
+  - delay: 363
+    content: "\e[?25l\e[27;30HCREATE DATABASE perpustakaan_mini\e[?25h"
+  - delay: 1637
+    content: ;
+  - delay: 239
+    content: "\r\n"
+  - delay: 13
+    content: "ERROR 1007 (HY000): Can't create database 'perpustakaan_mini'; database exists\r\nMariaDB [perpustakaan_mini]> "
+  - delay: 12406
+    content: d
+  - delay: 196
+    content: r
+  - delay: 163
+    content: o
+  - delay: 152
+    content: p
+  - delay: 362
+    content: ' '
+  - delay: 388
+    content: d
+  - delay: 81
+    content: a
+  - delay: 177
+    content: t
+  - delay: 69
+    content: a
+  - delay: 192
+    content: b
+  - delay: 244
+    content: a
+  - delay: 194
+    content: s
+  - delay: 194
+    content: e
+  - delay: 177
+    content: s
+  - delay: 558
+    content: ' '
+  - delay: 1953
+    content: "\b \b"
+  - delay: 163
+    content: "\b \b"
+  - delay: 1402
+    content: ' '
+  - delay: 416
+    content: p
+  - delay: 150
+    content: e
+  - delay: 190
+    content: r
+  - delay: 112
+    content: p
+  - delay: 633
+    content: u
+  - delay: 147
+    content: s
+  - delay: 136
+    content: t
+  - delay: 279
+    content: a
+  - delay: 387
+    content: k
+  - delay: 93
+    content: a
+  - delay: 176
+    content: a
+  - delay: 190
+    content: 'n'
+  - delay: 267
+    content: ' '
+  - delay: 543
+    content: "\b \b"
+  - delay: 381
+    content: _
+  - delay: 623
+    content: m
+  - delay: 192
+    content: i
+  - delay: 228
+    content: 'n'
+  - delay: 225
+    content: i
+  - delay: 1009
+    content: ;
+  - delay: 435
+    content: "\r\n"
+  - delay: 135
+    content: "Query OK, 5 rows affected (0.135 sec)\r\n"
+  - delay: 24
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 2831
+    content: c
+  - delay: 684
+    content: r
+  - delay: 439
+    content: e
+  - delay: 337
+    content: a
+  - delay: 155
+    content: t
+  - delay: 801
+    content: e
+  - delay: 265
+    content: ' '
+  - delay: 8190
+    content: "\b \b"
+  - delay: 230
+    content: "\b \b"
+  - delay: 120
+    content: "\b \b"
+  - delay: 110
+    content: "\b \b"
+  - delay: 114
+    content: "\b \b"
+  - delay: 115
+    content: "\b \b"
+  - delay: 124
+    content: "\b \b"
+  - delay: 922
+    content: C
+  - delay: 256
+    content: R
+  - delay: 165
+    content: E
+  - delay: 188
+    content: A
+  - delay: 146
+    content: T
+  - delay: 159
+    content: E
+  - delay: 303
+    content: ' '
+  - delay: 159
+    content: D
+  - delay: 221
+    content: A
+  - delay: 119
+    content: T
+  - delay: 105
+    content: A
+  - delay: 223
+    content: B
+  - delay: 200
+    content: A
+  - delay: 216
+    content: S
+  - delay: 199
+    content: E
+  - delay: 262
+    content: ' '
+  - delay: 1126
+    content: p
+  - delay: 221
+    content: e
+  - delay: 202
+    content: r
+  - delay: 62
+    content: p
+  - delay: 490
+    content: u
+  - delay: 141
+    content: s
+  - delay: 184
+    content: t
+  - delay: 247
+    content: a
+  - delay: 119
+    content: k
+  - delay: 105
+    content: a
+  - delay: 145
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 683
+    content: _
+  - delay: 390
+    content: m
+  - delay: 196
+    content: i
+  - delay: 216
+    content: 'n'
+  - delay: 244
+    content: i
+  - delay: 645
+    content: ;
+  - delay: 404
+    content: "\r\nQuery OK, 1 row affected (0.001 sec)\r\n"
+  - delay: 17
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 1207
+    content: u
+  - delay: 120
+    content: s
+  - delay: 190
+    content: e
+  - delay: 229
+    content: ' '
+  - delay: 716
+    content: p
+  - delay: 170
+    content: e
+  - delay: 257
+    content: r
+  - delay: 233
+    content: p
+  - delay: 372
+    content: u
+  - delay: 120
+    content: s
+  - delay: 185
+    content: t
+  - delay: 254
+    content: a
+  - delay: 192
+    content: k
+  - delay: 94
+    content: a
+  - delay: 664
+    content: a
+  - delay: 122
+    content: 'n'
+  - delay: 551
+    content: _
+  - delay: 663
+    content: m
+  - delay: 169
+    content: i
+  - delay: 215
+    content: 'n'
+  - delay: 208
+    content: i
+  - delay: 693
+    content: ;
+  - delay: 306
+    content: "\r\nDatabase changed"
+  - delay: 24
+    content: "\r\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 20567
+    content: "CREATE TABLE anggota (\r\n    ->     id_anggota INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama VARCHAR(100) NOT NULL,\r\n    ->     alamat VARCHAR(200),\r\n    ->     no_telp VARCHAR(20),\r\n    ->     email VARCHAR(100)\r"
+  - delay: 7
+    content: |2-
+
+          -> );
+  - delay: 1403
+    content: "\r\n"
+  - delay: 26
+    content: "Query OK, 0 rows affected (0.025 sec)\r\n\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 18306
+    content: "CREATE TABLE buku (\r\n    ->     id_buku INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     judul VARCHAR(200) NOT NULL,\r\n    ->     pengarang VARCHAR(100),\r\n    ->     penerbit VARCHAR(100),\r\n    ->     tahun_terbit YEAR,\r\n    ->     stok INT DEFAULT 0\r"
+  - delay: 10
+    content: |2-
+
+          -> );
+  - delay: 1151
+    content: "\r\n"
+  - delay: 25
+    content: "Query OK, 0 rows affected (0.024 sec)\r\n\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 2820
+    content: s
+  - delay: 193
+    content: e
+  - delay: 164
+    content: e
+  - delay: 139
+    content: l
+  - delay: 883
+    content: "\b \b"
+  - delay: 172
+    content: "\b \b"
+  - delay: 468
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 35912
+    content: "CREATE TABLE pinjaman (\r\n    ->     id_pinjaman INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_anggota INT,\r\n    ->     tgl_pinjam DATE,\r\n    ->     tgl_kembali DATE,\r\n    ->     FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)\r"
+  - delay: 9
+    content: |2-
+
+          -> );
+  - delay: 1105
+    content: "\r\n"
+  - delay: 28
+    content: "Query OK, 0 rows affected (0.027 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 28234
+    content: "INSERT INTO anggota (nama, alamat, no_telp, email)\r\n    -> VALUES \r\n    -> ('Andi Wijaya', 'Jl. Melati 10', '08123456789', 'andi@mail.com'),\r\n    -> ('Siti Aminah', 'Jl. Mawar 5', '08234567890', 'siti@mail.com');\r"
+  - delay: 21
+    content: |+
+
+  - delay: 205
+    content: "Query OK, 2 rows affected (0.224 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0"
+  - delay: 6
+    content: "\r\n"
+  - delay: 5
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 16996
+    content: "INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit, stok)\r\n    -> VALUES \r\n    -> ('Database Fundamentals', 'R. Elmasri', 'Pearson', 2016, 5),\r"
+  - delay: 14
+    content: |2-
+
+          -> ('Pemrograman SQL', 'A. Nugroho', 'Informatika', 2020, 3);
+  - delay: 8549
+    content: "\r\n"
+  - delay: 5
+    content: "Query OK, 2 rows affected (0.005 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 9
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 96437
+    content: "INSERT INTO pinjaman (id_anggota, tgl_pinjam, tgl_kembali)\r\n    -> VALUES (1, '2025-09-01', '2025-09-15');\r"
+  - delay: 6
+    content: "\nQuery OK, 1 row affected (0.005 sec)\r\n\nMariaDB [perpustakaan_mini]>\r\nMariaDB [perpustakaan_mini]> INSERT INTO detail_pinjam (id_pinjaman, id_buku, jumlah)\r"
+  - delay: 9
+    content: |2-
+
+          -> VALUES (1, 1, 1);
+  - delay: 1169
+    content: "\r\nERROR 1146 (42S02): Table 'perpustakaan_mini.detail_pinjam' doesn't exist"
+  - delay: 21
+    content: "\r\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 53951
+    content: "CREATE TABLE detail_pinjam (\r"
+  - delay: 5
+    content: "\n    ->     id_detail INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_pinjaman INT,\r\n    ->     id_buku INT,\r\n    ->     jumlah INT DEFAULT 1,\r\n    ->     FOREIGN KEY (id_pinjaman) REFERENCES pinjaman(id_pinjaman),\r\n    ->     FOREIGN KEY (id_buku) REFERENCES buku(id_buku)\r"
+  - delay: 14
+    content: |2-
+
+          -> );
+  - delay: 5570
+    content: "\r\n"
+  - delay: 31
+    content: "Query OK, 0 rows affected (0.031 sec)\r\n"
+  - delay: 9
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 15459
+    content: "INSERT INTO detail_pinjam (id_pinjaman, id_buku, jumlah)\r\n"
+  - delay: 11
+    content: '    -> VALUES (1, 1, 1);'
+  - delay: 1115
+    content: "\r\n"
+  - delay: 5
+    content: "Query OK, 1 row affected (0.004 sec)\r\n"
+  - delay: 16
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 16655
+    content: "SELECT a.nama, b.judul, p.tgl_pinjam, p.tgl_kembali\r\n    -> FROM anggota a\r\n    -> JOIN pinjaman p ON a.id_anggota = p.id_anggota\r\n    -> JOIN detail_pinjam d ON p.id_pinjaman = d.id_pinjaman\r"
+  - delay: 20
+    content: |2-
+
+          -> JOIN buku b ON d.id_buku = b.id_buku;
+  - delay: 1222
+    content: "\r\n"
+  - delay: 76
+    content: "+-------------+-----------------------+------------+-------------+\r\n| nama        | judul                 | tgl_pinjam | tgl_kembali |\r\n+-------------+-----------------------+------------+-------------+"
+  - delay: 7
+    content: "\r\n| Andi Wijaya | Database Fundamentals | 2025-09-01 | 2025-09-15  |\r\n+-------------+-----------------------+------------+-------------+\r\n1 row in set (0.075 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [perpustakaan_mini]>\e[1C"
+  - delay: 20106
+    content: e
+  - delay: 276
+    content: x
+  - delay: 174
+    content: i
+  - delay: 300
+    content: t
+  - delay: 816
+    content: "\r\nBye"
+  - delay: 15
+    content: "\r\n"
+  - delay: 15
+    content: 'PS C:\Users\USER> '
+  - delay: 1542
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m^D\e[?25h"
+  - delay: 766
+    content: "\e[m"
+  - delay: 13
+    content: "\r\n"
+  - delay: 132
+    content: "\e[38;5;9m♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the \e[m\r\n\e[38;5;9mspelling of the name, or if a path was included, verify that the path is correct and try again.\e[m\r\n\e[38;5;9mAt line:1 char:1\e[m\r\n\e[38;5;9m+ ♦\e[m\r\n\e[38;5;9m+ ~\e[m\r\n\e[38;5;9m    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException\e[m\r\n\e[38;5;9m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[38;5;9m\e[1C"
+  - delay: 17
+    content: "\e[m\r\n"
+  - delay: 15
+    content: 'PS C:\Users\USER> '
+  - delay: 1160
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93me\e[?25h"
+  - delay: 239
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bex\e[?25h"
+  - delay: 134
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;19Hexi\e[?25h"
+  - delay: 278
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[30;19Hexit\e[?25h"
+  - delay: 654
+    content: "\e[m"
+  - delay: 15
+    content: "\r\n"
