@@ -27,8 +27,10 @@ terminalizer --version
 
 jika muncul versi, kita lanjut
 # 2. Memulai Record Terminalizer
+buat nama folder record 
+contoh:
 ```bash
-terminalizer record demo
+terminalizer record hakim
 ```
 
 jika sudah, bakal muncul seperi ini 
@@ -126,7 +128,7 @@ ketika kalian sudah berada di filder tersebut
 kalian jalankan :
 
 ```bash
-terminalizer render demo
+terminalizer render hakim
 ```
 
 tunggus sampai muncul :
