@@ -36,8 +36,15 @@ jika sudah, bakal muncul seperi ini
 <img width="720" height="124" alt="image" src="https://github.com/user-attachments/assets/72a7c444-653c-482a-835e-6760c6df31a6" />
 
 # 3. Menjalankan MariaDB di Windows
+jika di prompt mariadb nya 
+ketik
 ```bash
 mysql -u root -p
+```
+jika di cmd 
+ketik
+```bash
+& "C:\Program Files\MariaDB 12.0\bin\mysql.exe" -u root -p
 ```
 masukan pw kalian
 
@@ -53,13 +60,25 @@ seperti :
 show databases;
 ```
 ```bash
-CREATE TABLE buku (
+create database perpustakaan; use perpustakaan;
 ```
 ```bash
-use perpustakaan;
+CREATE TABLE buku (no INT AUTO_INCREMENT PRIMARY KEY, judul VARCHAR(100), pengarang VARCHAR(100), penerbit VARCHAR(100), tahun_terbit YEAR); INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit) VALUES ('aku hebat','luqman hakim','gramedia',2005),('bunga mawar','burhan','kompas',2003),('terjun bebas','agoy','media tap',2002);
 ```
 ```bash
 SELECT * FROM buku;
+```
+```bash
+CREATE TABLE anggota (id_anggota INT AUTO_INCREMENT PRIMARY KEY, nama VARCHAR(100), alamat VARCHAR(200)); INSERT INTO anggota (nama, alamat) VALUES ('luqman hakim', 'Jl. Kenanga No. 8'), ('rehan caur', 'Jl. legoso No. 3');
+```
+```bash
+select * anggota;
+```
+```bash
+CREATE TABLE peminjaman (id_peminjaman INT AUTO_INCREMENT PRIMARY KEY, id_anggota INT, id_buku INT, tanggal_pinjam DATE, FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)); INSERT INTO peminjaman (id_anggota, id_buku, tanggal_pinjam) VALUES (1, 10, '2025-02-03'), (2, 5, '2025-02-04');
+```
+```bash
+select * from pemijaman;
 ```
 
 # 6. Mengakhiri Record Terminalizer
