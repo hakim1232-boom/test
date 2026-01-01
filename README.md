@@ -17,7 +17,7 @@ Jalankan perintah berikut:
 npm install -g terminalizer
 Jika sudah selesai tampilannya akan seperti ini
 <img width="425" height="87" alt="image" src="https://github.com/user-attachments/assets/6feaca7c-c5f6-44c6-ad0a-2cbc7b342912" />
-# SETELAH SUDAH BERHASIL DI INSTALL 
+# record mariadb
 # 1. CEK TERMINALIZER
 Masukan prompt
 
