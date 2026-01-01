@@ -95,7 +95,7 @@ lalu
 ctrl+D
 ```
 
-setelah itu pencet 'enter'
+setelah itu pencet ```enter```
 
 bila hasil nya seperti ini :
 <img width="944" height="140" alt="image" src="https://github.com/user-attachments/assets/13d7fc2f-f05d-4f5e-952c-ef2db359e190" />
