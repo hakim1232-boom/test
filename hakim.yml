@@ -1,0 +1,877 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\USER
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1025
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 10
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 186
+    content: 'PS C:\Users\USER> '
+  - delay: 1686
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93mm\e[?25h"
+  - delay: 251
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 159
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;19Hmys\e[?25h"
+  - delay: 342
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;19Hmysw\e[?25h"
+  - delay: 1006
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;19Hmys \b\e[?25h"
+  - delay: 286
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;19Hmysq\e[?25h"
+  - delay: 675
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;19Hmysql\e[?25h"
+  - delay: 381
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;19Hmysql \e[?25h"
+  - delay: 898
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;19Hmysql \e[m-\e[?25h"
+  - delay: 311
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;19Hmysql \e[90m-u\e[?25h"
+  - delay: 242
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[?25h"
+  - delay: 219
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mr\e[?25h"
+  - delay: 115
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mro\e[?25h"
+  - delay: 127
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mroo\e[?25h"
+  - delay: 176
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mroot\e[?25h"
+  - delay: 114
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mroot \e[?25h"
+  - delay: 612
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mroot -\e[?25h"
+  - delay: 199
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;19Hmysql \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 425
+    content: "\e[m"
+  - delay: 10
+    content: "\r\n"
+  - delay: 148
+    content: "\e[38;5;9mmysql : The term 'mysql' is not recognized as the name of a cmdlet, function, script file, or operable program. Check "
+  - delay: 22
+    content: "\e[m\e[38;5;9m\r\nthe spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt line:1 char:1\r\n+ mysql -u root -p\r\n+ ~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (mysql:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException\r\n \r\n"
+  - delay: 16
+    content: "\e[mPS C:\\Users\\USER> "
+  - delay: 45571
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93mm\e[?25h"
+  - delay: 512
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 456
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[15;19Hmys\e[?25h"
+  - delay: 200
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[15;19Hmysq\e[?25h"
+  - delay: 282
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[15;19Hmysq\e[m;\e[?25h"
+  - delay: 408
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[15;19Hmysq\e[m; \e[?25h"
+  - delay: 854
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[15;19Hmysq\e[m; \b\e[?25h"
+  - delay: 132
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[15;19Hmysq \b\e[?25h"
+  - delay: 1115
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[15;19Hmysql\e[?25h"
+  - delay: 293
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[15;19Hmysql \e[?25h"
+  - delay: 1141
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[15;19Hmysql \e[m-\e[?25h"
+  - delay: 395
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[15;19Hmysql \e[90m-u\e[?25h"
+  - delay: 252
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[?25h"
+  - delay: 245
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mr\e[?25h"
+  - delay: 116
+    content: "\e[?25l"
+  - delay: 8
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mro\e[?25h"
+  - delay: 127
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mroo\e[?25h"
+  - delay: 662
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mroot\e[?25h"
+  - delay: 129
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mroot \e[?25h"
+  - delay: 352
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mroot -\e[?25h"
+  - delay: 231
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[15;19Hmysql \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 621
+    content: "\e[m"
+  - delay: 20
+    content: "\r\n"
+  - delay: 43
+    content: "\e[38;5;9mmysql : The term 'mysql' is not recognized as the name of a cmdlet, function, script file, or operable program. Check "
+  - delay: 21
+    content: "\e[m\e[38;5;9m\r\nthe spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt line:1 char:1\r\n+ mysql -u root -p\r\n+ ~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (mysql:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException\r\n \e[m\r\nPS C:\\Users\\USER> "
+  - delay: 49229
+    content: "\e[?25l"
+  - delay: 10
+    content: "& \e[36m\"C:\\Program Files\\MariaDB 12.0\\bin\\mysql.exe\" \e[90m-u \e[mroot \e[90m-p\e[m\r\n>> \e[?25h"
+  - delay: 1538
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[24;19H& \e[36m\"C:\\Program Files\\MariaDB 12.0\\bin\\mysql.exe\" \e[90m-u \e[mroot \e[90m-p\e[m\r\n   \e[24;77H\e[?25h"
+  - delay: 1324
+    content: "\r\n"
+  - delay: 60
+    content: E
+  - delay: 19
+    content: 'nter password: '
+  - delay: 1123
+    content: '*'
+  - delay: 279
+    content: '*'
+  - delay: 229
+    content: '*'
+  - delay: 133
+    content: '*'
+  - delay: 1001
+    content: "\b"
+  - delay: 35
+    content: ' '
+  - delay: 15
+    content: "\b"
+  - delay: 73
+    content: "\b"
+  - delay: 21
+    content: " \b"
+  - delay: 74
+    content: "\b"
+  - delay: 20
+    content: " \b"
+  - delay: 99
+    content: "\b"
+  - delay: 11
+    content: " \b"
+  - delay: 729
+    content: '*'
+  - delay: 714
+    content: "\b"
+  - delay: 10
+    content: " \b"
+  - delay: 579
+    content: '*'
+  - delay: 280
+    content: '*'
+  - delay: 470
+    content: '*'
+  - delay: 135
+    content: '*'
+  - delay: 247
+    content: '*'
+  - delay: 443
+    content: "\b"
+  - delay: 25
+    content: " \b"
+  - delay: 159
+    content: "\b"
+  - delay: 11
+    content: " \b"
+  - delay: 209
+    content: "\b"
+  - delay: 24
+    content: " \b"
+  - delay: 99
+    content: "\b"
+  - delay: 10
+    content: " \b"
+  - delay: 470
+    content: "\b"
+  - delay: 13
+    content: " \b"
+  - delay: 521
+    content: '*'
+  - delay: 300
+    content: '*'
+  - delay: 197
+    content: '*'
+  - delay: 95
+    content: '*'
+  - delay: 173
+    content: '*'
+  - delay: 107
+    content: '*'
+  - delay: 382
+    content: '*'
+  - delay: 422
+    content: "\b"
+  - delay: 21
+    content: " \b"
+  - delay: 132
+    content: "\b"
+  - delay: 24
+    content: " \b"
+  - delay: 197
+    content: "\b"
+  - delay: 20
+    content: " \b"
+  - delay: 129
+    content: "\b"
+  - delay: 12
+    content: " \b"
+  - delay: 101
+    content: "\b"
+  - delay: 23
+    content: " \b"
+  - delay: 106
+    content: "\b"
+  - delay: 19
+    content: " \b"
+  - delay: 118
+    content: "\b"
+  - delay: 22
+    content: " \b"
+  - delay: 668
+    content: '*'
+  - delay: 330
+    content: '*'
+  - delay: 203
+    content: '*'
+  - delay: 149
+    content: '*'
+  - delay: 182
+    content: '*'
+  - delay: 81
+    content: '*'
+  - delay: 208
+    content: '*'
+  - delay: 94
+    content: '*'
+  - delay: 266
+    content: '*'
+  - delay: 164
+    content: '*'
+  - delay: 252
+    content: '*'
+  - delay: 347
+    content: '*'
+  - delay: 246
+    content: '*'
+  - delay: 169
+    content: '*'
+  - delay: 275
+    content: '*'
+  - delay: 113
+    content: '*'
+  - delay: 444
+    content: '*'
+  - delay: 386
+    content: "\r\n"
+  - delay: 56
+    content: "Welcome to the MariaDB monitor.  Commands end with ; or \\g.\e[?25l\r\nYour MariaDB connection id is 10\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[30;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[?25h\r\n\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n"
+  - delay: 8
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 98775
+    content: s
+  - delay: 182
+    content: j
+  - delay: 600
+    content: o
+  - delay: 704
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 510
+    content: h
+  - delay: 211
+    content: o
+  - delay: 170
+    content: w
+  - delay: 188
+    content: ' '
+  - delay: 926
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 844
+    content: w
+  - delay: 133
+    content: ' '
+  - delay: 206
+    content: d
+  - delay: 214
+    content: a
+  - delay: 110
+    content: t
+  - delay: 140
+    content: a
+  - delay: 162
+    content: b
+  - delay: 125
+    content: a
+  - delay: 238
+    content: s
+  - delay: 215
+    content: e
+  - delay: 192
+    content: s
+  - delay: 582
+    content: ;
+  - delay: 206
+    content: \
+  - delay: 784
+    content: "\b \b"
+  - delay: 226
+    content: "\r\n+--------------------+\r\n| Database           |\r\n+--------------------+\r\n| arsip              |\r\n| bangunan           |\r\n| information_schema |\r\n| mysql              |\r\n| performance_schema |\r\n| perpustakaan       |\r\n| sys                |\r\n+--------------------+\r\n7 rows in set (0.001 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 1905
+    content: d
+  - delay: 293
+    content: r
+  - delay: 192
+    content: o
+  - delay: 166
+    content: p
+  - delay: 588
+    content: ' '
+  - delay: 134
+    content: d
+  - delay: 202
+    content: a
+  - delay: 202
+    content: t
+  - delay: 145
+    content: a
+  - delay: 155
+    content: b
+  - delay: 193
+    content: a
+  - delay: 231
+    content: s
+  - delay: 189
+    content: e
+  - delay: 145
+    content: ' '
+  - delay: 559
+    content: p
+  - delay: 112
+    content: e
+  - delay: 184
+    content: r
+  - delay: 47
+    content: p
+  - delay: 298
+    content: u
+  - delay: 158
+    content: s
+  - delay: 146
+    content: t
+  - delay: 130
+    content: a
+  - delay: 158
+    content: k
+  - delay: 157
+    content: a
+  - delay: 141
+    content: a
+  - delay: 125
+    content: 'n'
+  - delay: 664
+    content: ;
+  - delay: 200
+    content: "\r\n"
+  - delay: 70
+    content: "Query OK, 3 rows affected (0.070 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 2904
+    content: c
+  - delay: 270
+    content: r
+  - delay: 153
+    content: e
+  - delay: 222
+    content: a
+  - delay: 145
+    content: t
+  - delay: 541
+    content: e
+  - delay: 149
+    content: ' '
+  - delay: 292
+    content: d
+  - delay: 220
+    content: a
+  - delay: 128
+    content: t
+  - delay: 120
+    content: a
+  - delay: 125
+    content: b
+  - delay: 141
+    content: a
+  - delay: 272
+    content: s
+  - delay: 251
+    content: e
+  - delay: 194
+    content: ' '
+  - delay: 551
+    content: p
+  - delay: 1212
+    content: e
+  - delay: 237
+    content: r
+  - delay: 128
+    content: p
+  - delay: 298
+    content: u
+  - delay: 134
+    content: s
+  - delay: 196
+    content: t
+  - delay: 152
+    content: a
+  - delay: 257
+    content: k
+  - delay: 232
+    content: a
+  - delay: 187
+    content: a
+  - delay: 257
+    content: 'n'
+  - delay: 1342
+    content: ;
+  - delay: 302
+    content: ' '
+  - delay: 417
+    content: u
+  - delay: 147
+    content: s
+  - delay: 227
+    content: e
+  - delay: 182
+    content: ' '
+  - delay: 345
+    content: p
+  - delay: 131
+    content: e
+  - delay: 228
+    content: r
+  - delay: 69
+    content: p
+  - delay: 440
+    content: u
+  - delay: 146
+    content: s
+  - delay: 160
+    content: t
+  - delay: 172
+    content: a
+  - delay: 177
+    content: k
+  - delay: 173
+    content: a
+  - delay: 147
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 1085
+    content: ;
+  - delay: 261
+    content: "\r\nQuery OK, 1 row affected (0.002 sec)\r\n\nDatabase changed"
+  - delay: 18
+    content: "\r\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 156799
+    content: "CREATE TABLE buku (no INT AUTO_INCREMENT PRIMARY KEY, judul VARCHAR(100), pengarang VARCHAR(100)\r\n\e[29;120H), penerbit VARCHAR(100), tahun_terbit YEAR); INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit) VALUES ('aku he\r\n\e[29;120Hebat','luqman hakim','gramedia',2005),('bunga mawar','burhan','kompas',2003),('terjun bebas','agoy','media tap',2002);\r"
+  - delay: 13
+    content: |+
+
+  - delay: 15
+    content: "Query OK, 0 rows affected (0.027 sec)\r\n\nQuery OK, 3 rows affected (0.004 sec)\r\nRecords: 3  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 9
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 6443
+    content: s
+  - delay: 396
+    content: l
+  - delay: 773
+    content: "\b \b"
+  - delay: 204
+    content: e
+  - delay: 589
+    content: l
+  - delay: 133
+    content: e
+  - delay: 357
+    content: c
+  - delay: 841
+    content: t
+  - delay: 305
+    content: ' '
+  - delay: 1072
+    content: '*'
+  - delay: 408
+    content: ' '
+  - delay: 458
+    content: f
+  - delay: 231
+    content: r
+  - delay: 176
+    content: o
+  - delay: 262
+    content: m
+  - delay: 330
+    content: ' '
+  - delay: 218
+    content: b
+  - delay: 230
+    content: u
+  - delay: 234
+    content: k
+  - delay: 185
+    content: u
+  - delay: 712
+    content: ;
+  - delay: 232
+    content: "\r\n+----+--------------+--------------+-----------+--------------+\r\n| no | judul        | pengarang    | penerbit  | tahun_terbit |\r\n+----+--------------+--------------+-----------+--------------+"
+  - delay: 5
+    content: "\r\n|  1 | aku hebat    | luqman hakim | gramedia  |         2005 |\r\n|  2 | bunga mawar  | burhan       | kompas    |         2003 |\r\n|  3 | terjun bebas | agoy         | media tap |         2002 |\r\n+----+--------------+--------------+-----------+--------------+\r\n3 rows in set (0.000 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 82174
+    content: "CREATE TABLE anggota (id_anggota INT AUTO_INCREMENT PRIMARY KEY, nama VARCHAR(100), alamat VARCH\r\n\e[29;120HHAR(200)); INSERT INTO anggota (nama, alamat) VALUES ('Lina Wulandari', 'Jl. Kenanga No. 8'), ('Bayu Saputra', 'Jl. Dahli\r\n\e[29;120Hia No. 3');\r\n"
+  - delay: 22
+    content: "Query OK, 0 rows affected (0.023 sec)\r\n\nQuery OK, 2 rows affected (0.004 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 7
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 1938
+    content: s
+  - delay: 241
+    content: e
+  - delay: 201
+    content: l
+  - delay: 53
+    content: e
+  - delay: 1245
+    content: c
+  - delay: 88
+    content: t
+  - delay: 562
+    content: ' '
+  - delay: 1402
+    content: '*'
+  - delay: 809
+    content: ' '
+  - delay: 299
+    content: f
+  - delay: 193
+    content: r
+  - delay: 142
+    content: o
+  - delay: 272
+    content: m
+  - delay: 417
+    content: ' '
+  - delay: 1195
+    content: a
+  - delay: 160
+    content: 'n'
+  - delay: 223
+    content: g
+  - delay: 106
+    content: g
+  - delay: 143
+    content: g
+  - delay: 719
+    content: "\b \b"
+  - delay: 349
+    content: o
+  - delay: 339
+    content: t
+  - delay: 179
+    content: a
+  - delay: 702
+    content: ;
+  - delay: 704
+    content: "\r\n+------------+----------------+-------------------+\r\n| id_anggota | nama           | alamat            |\r\n+------------+----------------+-------------------+\r\n|          1 | Lina Wulandari | Jl. Kenanga No. 8 |\r\n|          2 | Bayu Saputra   | Jl. Dahlia No. 3  |\r\n+------------+----------------+-------------------+\r\n2 rows in set (0.000 sec)\r\n\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 58090
+    content: d
+  - delay: 202
+    content: e
+  - delay: 189
+    content: l
+  - delay: 68
+    content: e
+  - delay: 1208
+    content: t
+  - delay: 694
+    content: e
+  - delay: 209
+    content: ' '
+  - delay: 1419
+    content: '*'
+  - delay: 395
+    content: ' '
+  - delay: 221
+    content: f
+  - delay: 251
+    content: r
+  - delay: 156
+    content: o
+  - delay: 1046
+    content: m
+  - delay: 216
+    content: ' '
+  - delay: 129
+    content: a
+  - delay: 130
+    content: 'n'
+  - delay: 220
+    content: g
+  - delay: 123
+    content: g
+  - delay: 300
+    content: o
+  - delay: 369
+    content: t
+  - delay: 157
+    content: a
+  - delay: 580
+    content: ;
+  - delay: 241
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\n\e[29;120Hion for the right syntax to use near '* from anggota' at line 1"
+  - delay: 9
+    content: "\r\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 117701
+    content: "CREATE TABLE peminjaman (id_peminjaman INT AUTO_INCREMENT PRIMARY KEY, id_anggota INT, id_buku I\r\n\e[29;120HINT, tanggal_pinjam DATE, FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)); INSERT INTO peminjaman (id_anggota, i\r\n\e[29;120Hid_buku, tanggal_pinjam) VALUES (1, 10, '2025-02-03'), (2, 5, '2025-02-04');\r"
+  - delay: 22
+    content: |+
+
+  - delay: 18
+    content: "Query OK, 0 rows affected (0.039 sec)\r\n"
+  - delay: 5
+    content: "\nQuery OK, 2 rows affected (0.004 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 9
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 30943
+    content: e
+  - delay: 314
+    content: x
+  - delay: 189
+    content: i
+  - delay: 341
+    content: t
+  - delay: 451
+    content: "\r\nBye"
+  - delay: 14
+    content: "\r\n"
+  - delay: 15
+    content: 'PS C:\Users\USER> '
+  - delay: 1464
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m^D\e[?25h"
+  - delay: 668
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 56
+    content: "\e[38;5;9m♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the \e[m\r\n\e[38;5;9mspelling of the name, or if a path was included, verify that the path is correct and try again.\e[m\r\n\e[38;5;9mAt line:1 char:1\e[m\r\n\e[38;5;9m+ ♦\e[m\r\n\e[38;5;9m+ ~\e[m\r\n\e[38;5;9m    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException\e[m\r\n\e[38;5;9m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[38;5;9m\e[1C"
+  - delay: 16
+    content: "\e[m\r\nPS C:\\Users\\USER>\e[1C"
+  - delay: 1619
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93me\e[?25h"
+  - delay: 279
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\bex\e[?25h"
+  - delay: 165
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[30;19Hexi\e[?25h"
+  - delay: 293
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[30;19Hexit\e[?25h"
+  - delay: 313
+    content: "\e[m"
+  - delay: 13
+    content: "\r\n"
