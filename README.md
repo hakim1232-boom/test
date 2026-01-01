@@ -115,9 +115,10 @@ dir demo.*
 ```
 kalau sudah muncul seperti ini :
 
-<img width="459" height="139" alt="image" src="https://github.com/user-attachments/assets/197b81e0-c681-4c5a-8e33-f06195867548" />
+<img width="401" height="81" alt="image" src="https://github.com/user-attachments/assets/6b1d0313-45dc-4e10-93cf-b508a1d0452f" />
 
- berarti file demo.yml kalian berhasil di simpan
+
+ berarti file record demo.yml kalian berhasil di simpan
 # 8. untuk menjadikan file demo.gif
 pastikan kamu di folder terminal kalian : contoh
 
