@@ -21,37 +21,58 @@ Jika sudah selesai tampilannya akan seperti ini
 # 1. CEK TERMINALIZER
 Masukan prompt
 
-```terminalizer --version```
+```bash
+terminalizer --version
+```
 
 jika muncul versi, kita lanjut
 # 2. Memulai Record Terminalizer
-```terminalizer record demo```
+```bash
+terminalizer record demo
+```
 
 jika sudah, bakal muncul seperi ini 
+
 <img width="720" height="124" alt="image" src="https://github.com/user-attachments/assets/72a7c444-653c-482a-835e-6760c6df31a6" />
 
 # 3. Menjalankan MariaDB di Windows
- ``` & "C:\Program Files\MariaDB 12.0\bin\mysql.exe" -u root -p```
+```bash
+mysql -u root -p
+```
 masukan pw kalian
 
 # 4. Login MariaDB Berhasil
 Jika password benar, akan muncul:
-```MariaDB [(none)]>```
+```bash
+MariaDB [(none)]>
+```
 
 # 5. Contoh Perintah Dasar MariaDB
 seperti :
-```show databases;```
-```CREATE TABLE buku (```
-```use perpustakaan```
-```SELECT * FROM buku;```
+```bash
+show databases;
+```
+```bash
+CREATE TABLE buku (
+```
+```bash
+use perpustakaan;
+```
+```bash
+SELECT * FROM buku;
+```
 
 # 6. Mengakhiri Record Terminalizer
 ketik 
-```exit```
+```bash
+exit
+```
 
 lalu
 
-```ctrl+D```
+```bash
+ctrl+D
+```
 
 setelah itu pencet 'enter'
 
@@ -59,14 +80,18 @@ bila hasil nya seperti ini :
 <img width="944" height="140" alt="image" src="https://github.com/user-attachments/assets/13d7fc2f-f05d-4f5e-952c-ef2db359e190" />
  anda tinggal ketik 
 
- ```exit```
+ ```bash
+ exit
+```
  nanti muncul 
  <img width="182" height="28" alt="image" src="https://github.com/user-attachments/assets/4cf217ea-673d-49c8-be84-0ae1b0332401" />
  itu berarti record anda berhasil
 
 # 7. cek file demo.yml
 ketik :
-```dir demo.*```
+```bash
+dir demo.*
+```
 kalau sudah muncul seperti ini :
 
 <img width="459" height="139" alt="image" src="https://github.com/user-attachments/assets/197b81e0-c681-4c5a-8e33-f06195867548" />
@@ -75,13 +100,15 @@ kalau sudah muncul seperti ini :
 # 8. untuk menjadikan file demo.gif
 pastikan kamu di folder terminal kalian : contoh
 
-C:\Users\USER
+```C:\Users\USER```
 
 ketika kalian sudah berada di filder tersebut
 
 kalian jalankan :
 
-```terminalizer render demo```
+```bash
+terminalizer render demo
+```
 
 tunggus sampai muncul :
 
