@@ -74,13 +74,13 @@ SELECT * FROM buku;
 CREATE TABLE anggota (id_anggota INT AUTO_INCREMENT PRIMARY KEY, nama VARCHAR(100), alamat VARCHAR(200)); INSERT INTO anggota (nama, alamat) VALUES ('luqman hakim', 'Jl. Kenanga No. 8'), ('rehan caur', 'Jl. legoso No. 3');
 ```
 ```bash
-select * anggota;
+select * from anggota;
 ```
 ```bash
 CREATE TABLE peminjaman (id_peminjaman INT AUTO_INCREMENT PRIMARY KEY, id_anggota INT, id_buku INT, tanggal_pinjam DATE, FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)); INSERT INTO peminjaman (id_anggota, id_buku, tanggal_pinjam) VALUES (1, 10, '2025-02-03'), (2, 5, '2025-02-04');
 ```
 ```bash
-select * from pemijaman;
+select * from peminjaman;
 ```
 
 # 6. Mengakhiri Record Terminalizer 1
