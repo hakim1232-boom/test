@@ -83,7 +83,7 @@ CREATE TABLE peminjaman (id_peminjaman INT AUTO_INCREMENT PRIMARY KEY, id_anggot
 select * from pemijaman;
 ```
 
-# 6. Mengakhiri Record Terminalizer
+# 6. Mengakhiri Record Terminalizer 1
 ketik 
 ```bash
 exit
@@ -105,10 +105,37 @@ bila hasil nya seperti ini :
  exit
 ```
  nanti muncul 
+ 
  <img width="182" height="28" alt="image" src="https://github.com/user-attachments/assets/4cf217ea-673d-49c8-be84-0ae1b0332401" />
+ 
  itu berarti record anda berhasil
+ # 7 Mengakhiri Record Terminalizer 2
+ ini lebih simple
+ ketik:
+ ```bash
+exit
+```
+bila sudah muncul ```bye```
+ketik
+```bash
+exit
+```
+nanti muncul
 
-# 7. cek file demo.yml
+<img width="580" height="96" alt="image" src="https://github.com/user-attachments/assets/d913a0e0-a1c8-4eb5-9b35-ed2d65b8d9a3" />
+
+kalo misalnya ada pilihan y/n 
+
+kalian ketik ```n```
+
+lalu itu tunggu saja
+
+kalau lama kalian bisa ```ctrl c```
+
+nanti masuk ke folder kalian seperti ini :
+
+```C:\Users\USER>```
+# 8. cek file demo.yml
 ketik :
 ```bash
 dir demo.*
@@ -117,9 +144,8 @@ kalau sudah muncul seperti ini :
 
 <img width="401" height="81" alt="image" src="https://github.com/user-attachments/assets/6b1d0313-45dc-4e10-93cf-b508a1d0452f" />
 
-
  berarti file record demo.yml kalian berhasil di simpan
-# 8. untuk menjadikan file demo.gif
+# 9. untuk menjadikan file demo.gif
 pastikan kamu di folder terminal kalian : contoh
 
 ```C:\Users\USER```
