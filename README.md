@@ -159,7 +159,7 @@ lalu kalian ikuti langkah ini saja
 
 <img width="523" height="118" alt="image" src="https://github.com/user-attachments/assets/734b7a14-0873-4999-8bfd-a300cc0d5a5d" />
 
-kalo misallnya ada yg error kalian yg usha panik
+kalo misallnya ada yg error, kalian enggak usha panik
 
 pastikan folder kalian tetap seperti ini :
 
