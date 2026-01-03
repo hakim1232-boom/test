@@ -134,6 +134,8 @@ kalau lama kalian bisa ```ctrl c```
 
 nanti masuk ke folder kalian seperti ini :
 
+```C:\Users\USER```
+
 # 8. Mengakhiri Record Terminalizer 3
 kalo misalnya langkah kedua error, kalian bisa pake langkah ketiga
 ketik:
@@ -164,6 +166,8 @@ pastikan folder kalian tetap seperti ini :
 ```C:\Users\USER>```
 itu bisa kalian langsung render.
 # 9. cek file demo.yml
+langkah ini cmn untuk memastikan file yml kalian ada apa tidak, tanpa harus ke file manager
+
 ketik :
 ```bash
 dir demo.*
