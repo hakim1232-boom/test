@@ -134,8 +134,36 @@ kalau lama kalian bisa ```ctrl c```
 
 nanti masuk ke folder kalian seperti ini :
 
+# 8. Mengakhiri Record Terminalizer 3
+kalo misalnya langkah kedua error, kalian bisa pake langkah ketiga
+ketik:
+ ```bash
+exit
+```
+bila sudah muncul ```bye```
+ketik
+```bash
+exit
+```
+nanti muncul
+
+<img width="580" height="96" alt="image" src="https://github.com/user-attachments/assets/d913a0e0-a1c8-4eb5-9b35-ed2d65b8d9a3" />
+
+kalo misalnya ada pilihan y/n 
+
+kalian ketik ```y```
+
+lalu kalian ikuti langkah ini saja
+
+<img width="523" height="118" alt="image" src="https://github.com/user-attachments/assets/734b7a14-0873-4999-8bfd-a300cc0d5a5d" />
+
+kalo misallnya ada yg error kalian yg usha panik
+
+pastikan folder kalian tetap seperti ini :
+
 ```C:\Users\USER>```
-# 8. cek file demo.yml
+itu bisa kalian langsung render.
+# 9. cek file demo.yml
 ketik :
 ```bash
 dir demo.*
@@ -145,7 +173,7 @@ kalau sudah muncul seperti ini :
 <img width="401" height="81" alt="image" src="https://github.com/user-attachments/assets/6b1d0313-45dc-4e10-93cf-b508a1d0452f" />
 
  berarti file record demo.yml kalian berhasil di simpan
-# 9. untuk menjadikan file demo.gif
+# 10. untuk menjadikan file demo.gif
 pastikan kamu di folder terminal kalian : contoh
 
 ```C:\Users\USER```
