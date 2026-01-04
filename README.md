@@ -38,9 +38,18 @@ jika sudah, bakal muncul seperi ini
 <img width="720" height="124" alt="image" src="https://github.com/user-attachments/assets/72a7c444-653c-482a-835e-6760c6df31a6" />
 
 # 3. Menjalankan MariaDB di Windows
-jika di prompt mariadb nya 
-ketik
-```bash
+noted : 
+ketika kalian mau ngerecord di command prompt mariadb, 
+> langkah awal kalian harus run as administrator terlebih dahulu
+
+> lalu kalian masuk lagi ke terminal commad prompt mariadb
+
+di command prompt mariadb nya 
+
+setelah kalian masukan commad terminalizer --version dan terminalizer record hakim
+
+lalu kalian ketik :
+```bashor
 mysql -u root -p
 ```
 jika di cmd 
@@ -170,7 +179,7 @@ langkah ini cmn untuk memastikan file yml kalian ada apa tidak, tanpa harus ke f
 
 ketik :
 ```bash
-dir demo.*
+dir hakim.*
 ```
 kalau sudah muncul seperti ini :
 
